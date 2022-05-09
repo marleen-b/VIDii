@@ -8,19 +8,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-
-
 ## Jij
 
 ### Ontwerper:
-Sanne 't Hooft (vervangen door jouw naam)
+Marleen Buchner
 
-#### Je startniveau:
-Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
-
-
-
-
+#### Mijn startniveau:
+Mijn startniveau is: blauw
 
 # Je plan
 
@@ -31,10 +25,10 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
 
 
-  ### Je ambitie: 
+  ### Mijn ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
+  - Het vak halen ;)
+  - Een voldoende halen 
   - nog een punt
   - ...
  
@@ -52,15 +46,14 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
 
 
   ### Bevinding 2:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
 
 
 
@@ -81,7 +74,7 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
 
 
 
@@ -89,7 +82,7 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
 
 
 
@@ -109,7 +102,7 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
 
 
 
@@ -117,7 +110,7 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
 
 
 
