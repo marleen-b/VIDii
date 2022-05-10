@@ -25,7 +25,8 @@ Mijn startniveau is: blauw
   Ik heb er dus voor gekozen om een tijdlijn te maken van Rainbow Road. 
 
   ### De eerste versie/schets:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/schetsconcept1" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/schetsconcept2" width="375px" alt="eerste versie/schets">
 
 
   ### Mijn ambitie: 
