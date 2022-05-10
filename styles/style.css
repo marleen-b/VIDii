@@ -14,6 +14,12 @@ button:not([disabled]) {
 
 /* jouw CSS vanaf hier */
 
-h1 {
-  color:crimson;
+body {
+  background: linear-gradient(270deg, rgba(255,46,0,1) 0%, rgba(255,170,0,1) 21%, rgba(254,255,0,1) 42%, rgba(90,205,50,1) 62%, rgba(0,70,255,1) 81%, rgba(227,47,250,1) 97%);
 }
+
+
+h1 {
+  color: #FFFFFF;
+}
+

@@ -20,8 +20,9 @@ Mijn startniveau is: blauw
 
 <details open>
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
-  Mario Kart is een klassieker die bijna iedereen wel kent. En welke course komt in elke Mario serie terug? Jazeker, Rainbow Road.
-  Een klassieker onder alle Mario Kart Courses. Voor sommigen een course vol trauma's en andere weer niet. 
+  Mario Kart is een klassieker die bijna iedereen wel kent. En welke course komt in elke Mario Kart game terug? Ja, Rainbow Road.
+  Een klassieker onder alle Mario Kart Courses. Voor sommigen spelers een course vol trauma's en andere weer niet. 
+  Ik heb er dus voor gekozen om een tijdlijn te maken van Rainbow Road. 
 
   ### De eerste versie/schets:
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
@@ -45,10 +46,11 @@ Mijn startniveau is: blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+  Een keuze maken tussen de verschillende ideeën. Ik heb eigenlijk twee concepten met daarom heen allemaal losse ideeën.
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+  Tijdens het uitleggen van mijn concepten aan medestudenten werd ik enthousiaster over het tweede concept. Ik heb dus de keuze gemaakt om het tweede concept verder uit te werken. We kwamen tot de conclusie dat het eerste concept een beetje statisch is, waardoor het ook minder leuk is om te maken. 
 
 
   ### Bevinding 2:
@@ -156,8 +158,8 @@ Mijn startniveau is: blauw
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
+1. fav icon - https://www.deviantart.com/betatus/art/Mario-Kart-ICON-412302604 
+2. Cloud guy voor de countdown - https://www.pngaaa.com/detail/2674041 
 3. ...
 
 </details>
