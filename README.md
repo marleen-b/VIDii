@@ -25,8 +25,8 @@ Mijn startniveau is: blauw
   Ik heb er dus voor gekozen om een tijdlijn te maken van Rainbow Road. 
 
   ### De eerste versie/schets:
-  <img src="readme-images/schetsconcept1" width="375px" alt="eerste versie/schets">;
-  <img src="readme-images/schetsconcept2" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/schetsconcept1.png">
 
 
   ### Mijn ambitie: 
@@ -55,7 +55,7 @@ Mijn startniveau is: blauw
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
