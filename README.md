@@ -24,6 +24,8 @@ Mijn startniveau is: blauw
   Een klassieker onder alle Mario Kart Courses. Voor sommigen spelers een course vol trauma's en andere weer niet. 
   Ik heb er dus voor gekozen om een tijdlijn te maken van Rainbow Road. 
 
+  - De mushroom is eigenlijk een soort van Easteregg verwijzing naar de Super Mario Bros game. Als Mario in dat spel een mushroom pakte wordt hij groter. Het idee is dan op een leuke manier de upgrade te zien van Mario in Mario Kart en natuurlijk Rainbow Road zelf. 
+
   ### De eerste versie/schets:
   <img src="readme-images/schetsconcept1.png" width="500px" alt="eerste concept/schets">
   <img src="readme-images/schetsconcept2.png" width="500px" alt="eerste concept/schets">
@@ -160,7 +162,12 @@ Mijn startniveau is: blauw
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. fav icon - https://www.deviantart.com/betatus/art/Mario-Kart-ICON-412302604 
-2. Cloud guy voor de countdown - https://www.pngaaa.com/detail/2674041 
-3. ...
+2. Cloud guy voor de countdown - https://static.wikia.nocookie.net/mariokart/images/2/20/Fishin'_Lakitu_(Mario_Kart_7).png/revision/latest/scale-to-width-down/1000?cb=20131229194833
+
+3. Regenboog gradient voor achtergrond - https://css-tricks.com/css3-gradients/ 
+4. Schaakbord pattern voor finishlijn - https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-conic-gradient 
+5. Blue shell - https://mariokart.fandom.com/wiki/Spiny_Shell 
+6. Resource voor tijdlijn - https://www.youtube.com/watch?v=-jqqHOF89b8
+7. Rode mushroom - https://mariokart.fandom.com/wiki/Mushroom_(item)
 
 </details>

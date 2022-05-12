@@ -2,7 +2,6 @@
 *, *::after, *::before {
   box-sizing:border-box;  
 }
-
 html, body {
   height:100%;
   margin:0;
@@ -14,12 +13,67 @@ button:not([disabled]) {
 
 /* jouw CSS vanaf hier */
 
+/*Styling body */
 body {
-  background: linear-gradient(270deg, rgba(255,46,0,1) 0%, rgba(255,170,0,1) 21%, rgba(254,255,0,1) 42%, rgba(90,205,50,1) 62%, rgba(0,70,255,1) 81%, rgba(227,47,250,1) 97%);
+  background: linear-gradient(
+    to right, 
+    rgba(227,47,250,1),
+    rgba(0,70,255,1),
+    rgba(90,205,50,1),
+    rgba(254,255,0,1),
+    rgba(255,170,0,1),
+    rgba(255,46,0,1)
+      );
+}
+main{
+  padding: 3em;
 }
 
-
-h1 {
-  color: #FFFFFF;
+h1, p {
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
 }
+/*Styling countdown met cloud guy */
+main article:nth-of-type(1) img{
+  height: 20em;
+  position: relative;
+  left: 50vw;
+}
+/* Styling mushroom button */
+ol li{
+  list-style: none;
+}
+li button{
+  font-size: 1.5em;
+  background-color: transparent;
+  border: none;
+}
+li button img{
+  max-width: 4em;
+}
+
+/*Styling footer, finishlijn */
+.finishline {
+  height: 3em;
+  background-image:repeating-conic-gradient( /*Bron: hulp van Sanne */
+  rgb(0 0 0 /0) 0% 25%,
+  black 25% 50%
+  );
+  background-size: 1.25em 1.25em;
+  border: .1em solid black;
+  animation-name: finishlijn;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+}
+ 
+/* @keyframes finishlijn {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% { 
+    transform: translateX(-.5em);
+  }
+} */
 
