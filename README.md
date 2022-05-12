@@ -146,7 +146,7 @@ Mijn startniveau is: blauw
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
-
+  Het idee was om voor de countdown niet alleen het stoplicht te gebruiken, maar net zoals in de game de aftelling zien in cijfers. bron die ik hiervoor wilde gebruiken: https://codepen.io/raulsuescun/pen/dwLWyw
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
@@ -169,5 +169,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 5. Blue shell - https://mariokart.fandom.com/wiki/Spiny_Shell 
 6. Resource voor tijdlijn - https://www.youtube.com/watch?v=-jqqHOF89b8
 7. Rode mushroom - https://mariokart.fandom.com/wiki/Mushroom_(item)
-
+8. Rainbow Road DS - https://www.tingzerg.top/products.aspx?cname=rainbow+race+mario+kart&cid=7 
+9. Verkeerslicht - https://codesandbox.io/s/6h6jg?file=/index.html
 </details>

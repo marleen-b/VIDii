@@ -5,6 +5,7 @@
 html, body {
   height:100%;
   margin:0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 button:not([disabled]) {
@@ -26,22 +27,137 @@ body {
       );
 }
 main{
-  padding: 3em;
+  padding: 3em 3em 0;
+} 
+/*HEADER */
+/*Centreren van button */
+header{ /*Hulp van Sanne */
+display:grid;
+place-items: center; 
 }
 
 h1, p {
   color: #000000;
   font-weight: bold;
   text-align: center;
+  margin: .5em;
+}
+header button{
+  color: white;
+  background-color: rgb(243,29,1);
+  padding: 1em 3em ;
+  border-style: none;
+  border-radius: .5em;
+}
+header button:hover{
+  background-color: rgb(255, 54, 27);
 }
 /*Styling countdown met cloud guy */
 main article:nth-of-type(1) img{
-  height: 20em;
+  height: 18em;
   position: relative;
   left: 50vw;
+  z-index: 100;
 }
+ol { /*Hulp van Sanne */
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+ol li{ /*Hulp van Sanne */
+  display: grid;
+  justify-items: center;
+  /* margin: 0; Zodra ik de tekst weghaal de margin gebruiken */
+}
+/* Verkeerslicht bron: https://codesandbox.io/s/6h6jg?file=/index.html */
+  .verkeerslicht {
+    background-color: black;
+    width: 70px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    border-radius: 10px;
+    position: relative;
+    left: 49vw;
+    bottom: 3em;
+  }
+  .verkeerslicht span {
+    width: 45px;
+    height: 45px;
+    padding: 10px 10px;
+    border-radius: 100%;
+    background-color: gray;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+  .verkeerslichtAan span:nth-of-type(1) {
+    animation-name: redBoven;
+  }
+  .verkeerslichtAan span:nth-of-type(2){
+    animation-name: redMidden;
+  }
+  .verkeerslichtAan span:nth-of-type(3){
+    animation-name: redOnder;
+    
+  }
+
+  @keyframes redBoven {
+    0%,
+    33% {
+      background-color: rgb(219,43,91);
+    }
+    34%,
+    75% {
+      background-color: rgb(219,43,91);
+    }
+    85%,
+    100% {
+      background-color: rgb(38,163,252);
+      
+    }
+  }
+
+  @keyframes redMidden {
+    0%,
+    33% {
+      background-color: gray;
+    }
+    34%,
+    66% {
+      background-color: rgb(219,43,91);
+    }
+    67%,
+    75% {
+      background-color: rgb(219,43,91);
+    }
+    85%,
+    100% {
+      background-color: rgb(38,163,252);
+    }
+  }
+
+  @keyframes redOnder {
+    0%,
+    66% {
+      background-color: gray;
+    }
+    67%,
+    75% {
+      background-color: rgb(219,43,91);
+    }
+    85%,
+    100%{
+      background-color: rgb(38,163,252);
+    }
+  }
+
 /* Styling mushroom button */
-ol li{
+ol{
   list-style: none;
 }
 li button{
@@ -58,7 +174,7 @@ li button img{
   height: 3em;
   background-image:repeating-conic-gradient( /*Bron: hulp van Sanne */
   rgb(0 0 0 /0) 0% 25%,
-  black 25% 50%
+  black 25% 50% 
   );
   background-size: 1.25em 1.25em;
   border: .1em solid black;
@@ -71,9 +187,10 @@ li button img{
   0% {
     transform: translateX(0);
   }
-
+  50%{
+    transform: translateX(.5em);
+  }
   100% { 
-    transform: translateX(-.5em);
+    transform: translateX(0);
   }
 } */
-
