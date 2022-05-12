@@ -11,9 +11,8 @@ startButton.addEventListener("click", wegvliegen )
 /* Dit om de cloudguy weg te laten vliegen */ 
 
 function wegvliegen (){
-    cloudGuy.classList.add("cloudguy2");
+    cloudGuy.classList.add("cloudGuyWegVliegen");
 }
-/* Aan de cloudguy img wordt een class toegevoegd */ 
 
 startButton.addEventListener("click", verkeerslichtAan)
 /* Om de verkeerslicht animatie te starten */

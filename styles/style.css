@@ -14,7 +14,9 @@ button:not([disabled]) {
 
 /* jouw CSS vanaf hier */
 
-/*Styling body */
+/**********************/
+/* ALGEMENE STIJLING; BODY*/
+/**********************/
 body {
   background: linear-gradient(
     to right, 
@@ -26,15 +28,6 @@ body {
     rgba(255,46,0,1)
       );
 }
-main{
-  padding: 3em 3em 0;
-} 
-/*HEADER */
-/*Centreren van button */
-header{ /*Hulp van Sanne */
-display:grid;
-place-items: center; 
-}
 
 h1, p {
   color: #000000;
@@ -42,155 +35,203 @@ h1, p {
   text-align: center;
   margin: .5em;
 }
-header button{
+
+
+
+
+/**********************/
+/* HEADER */
+/**********************/
+header{ /*Hulp van Sanne */
+  display:grid; /*Centreren van button */
+  place-items: center; 
+  }
+
+header button{ 
   color: white;
   background-color: rgb(243,29,1);
   padding: 1em 3em ;
   border-style: none;
   border-radius: .5em;
-}
+  }
 header button:hover{
   background-color: rgb(255, 54, 27);
+  }
+
+
+
+
+/**********************/
+/* FOOTER */
+/**********************/
+.finishline { /* Code voor finishlijn */
+  height: 3em;
+  background-image:repeating-conic-gradient( /*Bron: hulp van Sanne */
+  rgb(0 0 0 /0) 0% 25%,
+  black 25% 50% );
+  background-size: 1.25em 1.25em;
+  border: .1em solid black;
 }
-/*Styling countdown met cloud guy */
-main article:nth-of-type(1) img{
+
+
+
+
+/**********************/
+/* MAIN */
+/**********************/
+main{
+  padding: 3em 3em 0;
+} 
+
+
+
+
+/**********************/
+/* ARTICLE 1; CLOUDGUY */
+/**********************/
+main article:nth-of-type(1) img{ /*Styling countdown met cloud guy */
   height: 18em;
   position: relative;
   left: 50vw;
   z-index: 100;
 }
-ol { /*Hulp van Sanne */
+.cloudGuyWegVliegen{
+  animation-name: wegVliegen;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+@keyframes wegVliegen {
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(-60em);
+  }
+
+}
+
+
+
+/**********************/
+/* ARTICLE 2; VERKEERSLICHT */
+/**********************/
+/* Verkeerslicht bron: https://codesandbox.io/s/6h6jg?file=/index.html */
+.verkeerslicht { /*verkeerslicht ovaal */
+  background-color: black;
+  width: 70px;
+  height: 175px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  border-radius: 10px;
+  position: relative;
+  left: 49vw;
+  bottom: 3em;
+}
+.verkeerslicht span { /* Verkeerslichten */
+  width: 45px;
+  height: 45px;
+  padding: 10px 10px;
+  border-radius: 100%;
+  background-color: gray;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.verkeerslichtAan span:nth-of-type(1){
+  animation-name: redBoven;
+}
+.verkeerslichtAan span:nth-of-type(2){
+  animation-name: redMidden;
+}
+.verkeerslichtAan span:nth-of-type(3){
+  animation-name: redOnder;
+  
+}
+
+@keyframes redBoven {
+  0%,
+  33% {
+    background-color: rgb(219,43,91);
+  }
+  34%,
+  75% {
+    background-color: rgb(219,43,91);
+  }
+  85%,
+  100% {
+    background-color: rgb(38,163,252);
+    
+  }
+}
+
+@keyframes redMidden {
+  0%,
+  33% {
+    background-color: gray;
+  }
+  34%,
+  66% {
+    background-color: rgb(219,43,91);
+  }
+  67%,
+  75% {
+    background-color: rgb(219,43,91);
+  }
+  85%,
+  100% {
+    background-color: rgb(38,163,252);
+  }
+}
+
+@keyframes redOnder {
+  0%,
+  66% {
+    background-color: gray;
+  }
+  67%,
+  75% {
+    background-color: rgb(219,43,91);
+  }
+  85%,
+  100%{
+    background-color: rgb(38,163,252);
+  }
+}
+
+
+
+
+/**********************/
+/* ARTICLE 3; TIJDLIJN */
+/**********************/
+/* Styling mushroom button */
+ol{ 
+  display: flex; /* Hulp van Sanne */
   justify-content: space-between;
   margin: 0;
+  list-style: none;
 }
 ol li{ /*Hulp van Sanne */
   display: grid;
   justify-items: center;
   /* margin: 0; Zodra ik de tekst weghaal de margin gebruiken */
 }
-/* Verkeerslicht bron: https://codesandbox.io/s/6h6jg?file=/index.html */
-  .verkeerslicht {
-    background-color: black;
-    width: 70px;
-    height: 175px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 5px;
-    border-radius: 10px;
-    position: relative;
-    left: 49vw;
-    bottom: 3em;
-  }
-  .verkeerslicht span {
-    width: 45px;
-    height: 45px;
-    padding: 10px 10px;
-    border-radius: 100%;
-    background-color: gray;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-  }
-  .verkeerslichtAan span:nth-of-type(1) {
-    animation-name: redBoven;
-  }
-  .verkeerslichtAan span:nth-of-type(2){
-    animation-name: redMidden;
-  }
-  .verkeerslichtAan span:nth-of-type(3){
-    animation-name: redOnder;
-    
-  }
 
-  @keyframes redBoven {
-    0%,
-    33% {
-      background-color: rgb(219,43,91);
-    }
-    34%,
-    75% {
-      background-color: rgb(219,43,91);
-    }
-    85%,
-    100% {
-      background-color: rgb(38,163,252);
-      
-    }
-  }
-
-  @keyframes redMidden {
-    0%,
-    33% {
-      background-color: gray;
-    }
-    34%,
-    66% {
-      background-color: rgb(219,43,91);
-    }
-    67%,
-    75% {
-      background-color: rgb(219,43,91);
-    }
-    85%,
-    100% {
-      background-color: rgb(38,163,252);
-    }
-  }
-
-  @keyframes redOnder {
-    0%,
-    66% {
-      background-color: gray;
-    }
-    67%,
-    75% {
-      background-color: rgb(219,43,91);
-    }
-    85%,
-    100%{
-      background-color: rgb(38,163,252);
-    }
-  }
-
-/* Styling mushroom button */
-ol{
-  list-style: none;
-}
 li button{
   font-size: 1.5em;
   background-color: transparent;
   border: none;
 }
+
 li button img{
   max-width: 4em;
 }
 
-/*Styling footer, finishlijn */
-.finishline {
-  height: 3em;
-  background-image:repeating-conic-gradient( /*Bron: hulp van Sanne */
-  rgb(0 0 0 /0) 0% 25%,
-  black 25% 50% 
-  );
-  background-size: 1.25em 1.25em;
-  border: .1em solid black;
-  animation-name: finishlijn;
-  animation-duration: .8s;
-  animation-iteration-count: infinite;
-}
- 
-/* @keyframes finishlijn {
-  0% {
-    transform: translateX(0);
-  }
-  50%{
-    transform: translateX(.5em);
-  }
-  100% { 
-    transform: translateX(0);
-  }
-} */
+
+

@@ -20,23 +20,34 @@ Mijn startniveau is: blauw
 
 <details open>
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
-  Mario Kart is een klassieker die bijna iedereen wel kent. En welke course komt in elke Mario Kart game terug? Ja, Rainbow Road.
-  Een klassieker onder alle Mario Kart Courses. Voor sommigen spelers een course vol trauma's en andere weer niet. 
-  Ik heb er dus voor gekozen om een tijdlijn te maken van Rainbow Road. 
-
-  - De mushroom is eigenlijk een soort van Easteregg verwijzing naar de Super Mario Bros game. Als Mario in dat spel een mushroom pakte wordt hij groter. Het idee is dan op een leuke manier de upgrade te zien van Mario in Mario Kart en natuurlijk Rainbow Road zelf. 
 
   ### De eerste versie/schets:
   <img src="readme-images/schetsconcept1.png" width="500px" alt="eerste concept/schets">
-  <img src="readme-images/schetsconcept2.png" width="500px" alt="eerste concept/schets">
-  <img src="readme-images/schetsenideetjes.png" width="500px" alt="eerste concept/schets">
+  <img src="readme-images/schetsconcept2.png" width="500px" alt="tweede concept/schets">
+  <img src="readme-images/schetsenideetjes.png" width="500px" alt="schetsen van losse ideeën">
+
+  Mario Kart is een klassieker die bijna iedereen wel kent. En welke course komt in elke Mario Kart game terug? Jazeker, Rainbow Road. Wat ook één van mijn favoriete Mario Kart baan is.
+  Voor sommigen spelers een course vol trauma's, omdat je regelmatig van de baan vliegt en voor andere weer niet. 
+  Ik heb er dus voor gekozen om een tijdlijn te maken van Rainbow Road. 
+
+  Het idee is om Mario te laten 'racen' door de versies van Rainbow Road heen. Bij elke mushroom veranderd Mario naar een andere game versie van Mario Kart. Ook zie je de achtergrond veranderen naar de Rainbow Road course uit dezelfde game. 
+
+  De mushroom is eigenlijk een soort van Easter egg verwijzing naar de Super Mario Bros game. Als Mario in het spel een mushroom pakte wordt hij groter. Het idee is dan op een leuke manier de upgrade te laten zien van Mario in Mario Kart en natuurlijk Rainbow Road zelf. 
+
+  Het lijkt er op dat Mario de finish gaat bereiken, maar danvliegt er een Blue shell het scherm binnen. Waarna de kijker weer terug wordt gegooid naar het begin van de tijdlijn.  
+
+
+
+  
+
+
+
 
   ### Mijn ambitie: 
   Aan deze technieken/punten wil ik werken:
   - Het vak halen ;)
-  - Een voldoende halen 
-  - nog een punt
-  - ...
+  - Een voldoende halen
+  - Wat meerdere elementen met animaties en Javascript.
  
 </details>
 
@@ -46,13 +57,12 @@ Mijn startniveau is: blauw
 ## Voortgang/Feedback 1
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen</summary>
 
   ### Bevinding 1:
-  Een keuze maken tussen de verschillende ideeën. Ik heb eigenlijk twee concepten met daarom heen allemaal losse ideeën.
+  Een keuze maken tussen de verschillende concepten Ik heb eigenlijk twee concepten met daarom heen allemaal losse ideeën.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
   Tijdens het uitleggen van mijn concepten aan medestudenten werd ik enthousiaster over het tweede concept. Ik heb dus de keuze gemaakt om het tweede concept verder uit te werken. We kwamen tot de conclusie dat het eerste concept een beetje statisch is, waardoor het ook minder leuk is om te maken. 
 
 
@@ -140,6 +150,7 @@ Mijn startniveau is: blauw
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatje(s)
+  - Javascript code schrijven voor het maken van een interactie. Voor mij is Javascript heel lastig en deze code lukte mij helemaal zelf naar de les over JS. 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
@@ -157,18 +168,22 @@ Mijn startniveau is: blauw
 ## Bronnenlijst
 
 <details open>
-<summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
+1. https://www.deviantart.com/betatus/art/Mario-Kart-ICON-412302604 - afbeelding als fav icon
+2. https://static.wikia.nocookie.net/mariokart/images/2/20/Fishin'_Lakitu_(Mario_Kart_7).png/revision/latest/scale-to-width-down/1000?cb=20131229194833 - Afbeelding van Latiku voor de countdown
+3. https://css-tricks.com/css3-gradients/ - Om een Regenboog gradient te maken voor de achtergrond.
+4. https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-conic-gradient - CSS code om een schaakbord pattern te maken voor de finishlijn.
+5. https://mariokart.fandom.com/wiki/Spiny_Shell  - Afbeelding van Blue Shell
+6. https://www.youtube.com/watch?v=-jqqHOF89b8 - Content resource voor de tijdlijn
+7. https://mariokart.fandom.com/wiki/Mushroom_(item) - Afbeelding van rode mushroom
+8. https://codesandbox.io/s/6h6jg?file=/index.html - CSS code voor het maken en animeren van het verkeerslicht. 
+9. https://www.deviantart.com/ringostarr39/art/Mario-Kart-DS-logo-738743863 - Logo van Mario Kart DS 2005
+10. https://commons.wikimedia.org/wiki/File:Mariokartwiilogo.png - Logo van Mario Kart Wii 2008
 
-1. fav icon - https://www.deviantart.com/betatus/art/Mario-Kart-ICON-412302604 
-2. Cloud guy voor de countdown - https://static.wikia.nocookie.net/mariokart/images/2/20/Fishin'_Lakitu_(Mario_Kart_7).png/revision/latest/scale-to-width-down/1000?cb=20131229194833
+11. https://logos.fandom.com/wiki/Mario_Kart_7 - Logo van Mario Kart 7 2011
+12. https://logos.fandom.com/wiki/Mario_Kart_8_Deluxe - Logo van Mario Krt 8 Deluxe 2017
+13. https://commons.wikimedia.org/wiki/File:Super-Mario-Kart-Logo.png - Logo van Super Mario Kart 1992
+14. https://www.mariowiki.com/Gallery:Mario_Kart:_Super_Circuit - Logo van Mario Kart Super Circuit 2001
 
-3. Regenboog gradient voor achtergrond - https://css-tricks.com/css3-gradients/ 
-4. Schaakbord pattern voor finishlijn - https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-conic-gradient 
-5. Blue shell - https://mariokart.fandom.com/wiki/Spiny_Shell 
-6. Resource voor tijdlijn - https://www.youtube.com/watch?v=-jqqHOF89b8
-7. Rode mushroom - https://mariokart.fandom.com/wiki/Mushroom_(item)
-8. Rainbow Road DS - https://www.tingzerg.top/products.aspx?cname=rainbow+race+mario+kart&cid=7 
-9. Verkeerslicht - https://codesandbox.io/s/6h6jg?file=/index.html
-</details>
+
+9. Rainbow Road DS - https://www.tingzerg.top/products.aspx?cname=rainbow+race+mario+kart&cid=7 
