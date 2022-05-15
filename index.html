@@ -15,54 +15,57 @@
 <body>
 	<header>
 		<h1>De road of Rainbow Road</h1>
-		<span> <img src="images/mariokartlogo1992.png" alt="Logo van Mario Kart Game"></span>
+		<img src="images/mariokartlogo1992.png" alt="Logo van Mario Kart Game">
 		<p>Are you ready to race? Let's GO!</p>
 		<button>Start de race</button> <!-- Dit wordt de button om de countdown te starten-->
 	</header>
 
 	<main>
-		<article> <!--Countdown-->
+		<section class="cloudguy"> <!--article 1 Cloudguy-->
 			<img src="images/cloudguy.png" alt="afbeelding van cloud guy uit Mario Kart game">
-		</article>
-		<article class="verkeerslicht"> 
-			<span></span>
-			<span></span>
-			<span></span>
-		</article>
-		<ol>
-			<li>
-				<p>Super Mario Kart(SNES) - 1992</p>
-				<button> <img src="images/mushroom.png"> </button>
+			<div class="verkeerslicht"> <!--article 2 Verkeerslicht-->
+				<span></span>
+				<span></span>
+				<span></span>
+			</div> <!--article 3 mushroom-->
+		</section>
+
+		<section class="tijdlijn"> <!--article 3 section 1 mushrooms-->
+			<ol>
+				<li>
+					<p>Super Mario Kart(SNES) - 1992</p>
+					<button> <img src="images/mushroom.png"> </button>
 				
-			</li>
-			<li>
-				<p>Mario Kart Super Circuit(GBA) -2001</p>
-				<button> <img src="images/mushroom.png"> </button>
-			</li>
-			<li>
-				<p>Mario Kart DS - 2005</p>
-				<button> <img src="images/mushroom.png"> </button>
-			</li>
-			<li>
-				<p>Mario Kart Wii - 2008</p>
-				<button> <img src="images/mushroom.png"> </button>
-			</li>
-			<li>
-				<p>Mario Kart 7 - 2011</p>
-				<button> <img src="images/mushroom.png"> </button>
-			</li>
-			<li>
-				<p>Mario Kart 8 Deluxe - 2017</p>
-				<button> <img src="images/mushroom.png"> </button>
-			</li>
-		</ol>
+				</li>
+				<li>
+					<p>Mario Kart Super Circuit(GBA) - 2001</p>
+					<button> <img src="images/mushroom.png"> </button>
+				</li>
+				<li>
+					<p>Mario Kart DS - 2005</p>
+					<button> <img src="images/mushroom.png"> </button>
+				</li>
+				<li>
+					<p>Mario Kart Wii - 2008</p>
+					<button> <img src="images/mushroom.png"> </button>
+				</li>
+				<li>
+					<p>Mario Kart 7 - 2011</p>
+					<button> <img src="images/mushroom.png"> </button>
+				</li>
+				<li>
+					<p>Mario Kart 8 Deluxe - 2017</p>
+					<button> <img src="images/mushroom.png"> </button>
+				</li>
+			</ol>
+
+			<img class="mario" src="images/favicon.png" alt="mario kart karakter">
+
+			<div class="finishline"></div>
+		</section>
+
 	</main>
-	<footer>
-		<article> 
-			<section class="finishline"> 
-			</section>
-		</article>
-	</footer>
+
 
 	<script src="scripts/script.js"></script>
 </body>

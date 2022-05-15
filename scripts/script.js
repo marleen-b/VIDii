@@ -1,23 +1,13 @@
-// JavaScript Document
-var startButton = document.querySelector("header button")
+// WEGVLIEGEN 
+var startButton = document.querySelector("header button");
+var cloudGuy = document.querySelector("section.cloudguy");
+var verkeerslicht = document.querySelector("div.verkeerslicht");
+
 /*Spreekt de button aan in de header */
+startButton.addEventListener("click", startenEnWegvliegen );
 
-var cloudGuy = document.querySelector("main article:nth-of-type(1) img")
-startButton.addEventListener("click", wegvliegen )
-
-var verkeerslicht = document.querySelector("main article:nth-of-type(2)")
-
-startButton.addEventListener("click", wegvliegen )
 /* Dit om de cloudguy weg te laten vliegen */ 
-
-function wegvliegen (){
+function startenEnWegvliegen (){
+    verkeerslicht.classList.add("verkeerslichtAan");
     cloudGuy.classList.add("cloudGuyWegVliegen");
 }
-
-startButton.addEventListener("click", verkeerslichtAan)
-/* Om de verkeerslicht animatie te starten */
-
- function verkeerslichtAan(){
-    verkeerslicht.classList.add("verkeerslichtAan");
- }
-

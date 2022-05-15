@@ -12,30 +12,95 @@ button:not([disabled]) {
   cursor:pointer;
 }
 
-/* jouw CSS vanaf hier */
+
+
+
+
+/**********************/
+/* CUSTOM PROPERTIES */
+/**********************/
+/*Kleuren voor light mode */
+:root {
+   --rainbow-gradient: linear-gradient(
+    to right, 
+    rgb(255,168,241),
+    rgb(130,107,231),
+    rgb(140,255,180),
+    rgb(250,255,173),
+    rgb(251,175,153),
+    rgb(221, 83, 65)
+  );
+
+  --finishlijn-pattern: repeating-conic-gradient( /*Finishlijn*/
+    rgb(0 0 0 /0) 0% 25%,
+    black 25% 50%
+  );
+  --finishlijn-dropshadow: #000000;
+
+  --tekst-kleur: #000000; /*H1 , p*/
+  --tekst-kleur-button: #fff;
+  --kleur-button: rgb(255, 54, 27);
+  --kleur-button-hover: rgb(243,29,1);
+
+  --cloudguy-dropshadow: #0098;
+  --tekstwolkje: white;
+
+  --verkeerslicht-basis: black;
+  --verkeerslicht-stip: gray;
+  --verkeerslicht-eerstekleur: rgb(219, 43, 91);
+  --verkeerslicht-tweedekleur:rgb(38,163, 252);
+}
+
+/*Kleuren voor darkmode*/
+ @media (prefers-color-scheme:dark) {
+  :root {
+    --rainbow-gradient: linear-gradient(
+     to right, 
+     #FFC7F6,
+     #AD9EEF,
+     #B3FFCD,
+     #FBFFCA,
+     #FCCABC,
+     #E98F83
+   );
+ 
+   --finishlijn-pattern: repeating-conic-gradient( /*Finishlijn*/
+     rgb(0 0 0 /0) 0% 25%,
+     black 25% 50%
+   );
+   --finishlijn-dropshadow: #000000;
+ 
+   --tekst-kleur: #000000; /*H1 , p*/
+   --tekst-kleur-button: #fff;
+   --kleur-button: yellow;
+   --kleur-button-hover: rgb(243,29,1);
+ 
+   --cloudguy-dropshadow: #0098;
+   --tekstwolkje: white;
+ 
+   --verkeerslicht-basis: black;
+   --verkeerslicht-stip: gray;
+   --verkeerslicht-eerstekleur: rgb(219, 43, 91);
+   --verkeerslicht-tweedekleur:rgb(38,163, 252);
+  }
+}
 
 /**********************/
 /* ALGEMENE STIJLING; BODY*/
 /**********************/
 body {
-  background: linear-gradient(
-    to right, 
-    rgba(227,47,250,1),
-    rgba(0,70,255,1),
-    rgba(90,205,50,1),
-    rgba(254,255,0,1),
-    rgba(255,170,0,1),
-    rgba(255,46,0,1)
-      );
+  background-image:
+  var(--rainbow-gradient);
+  /* background-image: url("../images/mushroom.png"); */
 }
+/* OM EEN BACKGROUND IMAGE TOE TE VOEGEN MAAK EEN CLASS AAN */
 
 h1, p {
-  color: #000000;
+  color: var(--tekst-kleur);
   font-weight: bold;
   text-align: center;
   margin: .5em;
 }
-
 
 
 
@@ -45,61 +110,53 @@ h1, p {
 header{ /*Hulp van Sanne */
   display:grid; /*Centreren van button */
   place-items: center; 
-  }
+}
 
+/* logo */
+header img{ /* Logo van Mario Kart */
+  height: 8em;
+}
+
+/* play button */
 header button{ 
-  color: white;
-  background-color: rgb(243,29,1);
+  color: var(--tekst-kleur-button);
+  background-color: var(--kleur-button);
   padding: 1em 3em ;
   border-style: none;
   border-radius: .5em;
-  }
+}
+
 header button:hover{
-  background-color: rgb(255, 54, 27);
-  }
-
-
-
-
-/**********************/
-/* FOOTER */
-/**********************/
-.finishline { /* Code voor finishlijn */
-  height: 3em;
-  background-image:repeating-conic-gradient( /*Bron: hulp van Sanne */
-  rgb(0 0 0 /0) 0% 25%,
-  black 25% 50% );
-  background-size: 1.25em 1.25em;
-  border: .1em solid black;
+  background-color: var(--kleur-button-hover);
 }
 
 
 
 
-/**********************/
-/* MAIN */
-/**********************/
-main{
-  padding: 3em 3em 0;
-} 
-
-
 
 
 /**********************/
-/* ARTICLE 1; CLOUDGUY */
+/* SECTION 1 - CLOUDGUY */
 /**********************/
-main article:nth-of-type(1) img{ /*Styling countdown met cloud guy */
-  height: 18em;
-  position: relative;
-  left: 50vw;
-  z-index: 100;
+/*Positioneren Cloudguy*/
+
+section.cloudguy {
+  position: fixed;
+  z-index: 50;
+  left:50%;
+  top:calc(50% - 9em);
+
+  pointer-events: none;
+
+  filter:drop-shadow(.5em 1em 1em var(--cloudguy-dropshadow));
 }
+
+/* wegvliegen */
 .cloudGuyWegVliegen{
   animation-name: wegVliegen;
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-delay: 3s;
-  animation-timing-function: ease-out;
+  animation-timing-function: ease-in;
   animation-fill-mode: forwards;
 }
 @keyframes wegVliegen {
@@ -107,20 +164,25 @@ main article:nth-of-type(1) img{ /*Styling countdown met cloud guy */
     transform: translateY(0);
   }
   100%{
-    transform: translateY(-60em);
+    transform: translateY(calc(-50vh - 20em));
   }
-
 }
 
-
+/* de cloudguy zelf */
+section.cloudguy img{ 
+  position: relative;
+  width: 18em;
+  z-index: 100;
+}
 
 /**********************/
 /* ARTICLE 2; VERKEERSLICHT */
 /**********************/
-/* Verkeerslicht bron: https://codesandbox.io/s/6h6jg?file=/index.html */
-.verkeerslicht { /*verkeerslicht ovaal */
-  background-color: black;
-  width: 70px;
+/* Bron: https://codesandbox.io/s/6h6jg?file=/index.html */
+/*verkeerslicht basisvorm */
+.verkeerslicht { 
+  background-color: var(--verkeerslicht-basis);
+  width: 70px; /* BAH BAH BAH BAH pixels */
   height: 175px;
   display: flex;
   flex-direction: column;
@@ -128,81 +190,85 @@ main article:nth-of-type(1) img{ /*Styling countdown met cloud guy */
   align-items: center;
   padding: 10px 5px;
   border-radius: 10px;
-  position: relative;
-  left: 49vw;
-  bottom: 3em;
+  position: absolute;
+
+  left:-1em;
+  top:14.5em;
 }
-.verkeerslicht span { /* Verkeerslichten */
+
+/* Verkeerslichten */
+.verkeerslicht span { 
   width: 45px;
   height: 45px;
-  padding: 10px 10px;
-  border-radius: 100%;
-  background-color: gray;
+
+  border-radius: 50%;
+  background-color: var(--verkeerslicht-stip);
+
   animation-duration: 3s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
-.verkeerslichtAan span:nth-of-type(1){
-  animation-name: redBoven;
+.verkeerslicht.verkeerslichtAan span:nth-of-type(1){
+  animation-name: stipBoven;
 }
-.verkeerslichtAan span:nth-of-type(2){
-  animation-name: redMidden;
+.verkeerslicht.verkeerslichtAan span:nth-of-type(2){
+  animation-name: stipMidden;
 }
-.verkeerslichtAan span:nth-of-type(3){
-  animation-name: redOnder;
-  
+.verkeerslicht.verkeerslichtAan span:nth-of-type(3){
+  animation-name: stipOnder;
 }
 
-@keyframes redBoven {
+@keyframes stipBoven {
   0%,
   33% {
-    background-color: rgb(219,43,91);
+    background-color: var(--verkeerslicht-eerstekleur);
   }
   34%,
   75% {
-    background-color: rgb(219,43,91);
+    background-color: var(--verkeerslicht-eerstekleur);
   }
   85%,
   100% {
-    background-color: rgb(38,163,252);
+    background-color: var(--verkeerslicht-tweedekleur);
     
   }
 }
 
-@keyframes redMidden {
+@keyframes stipMidden {
   0%,
   33% {
-    background-color: gray;
+    background-color: var(--verkeerslicht-stip);
   }
   34%,
   66% {
-    background-color: rgb(219,43,91);
+    background-color: var(--verkeerslicht-eerstekleur);
   }
   67%,
   75% {
-    background-color: rgb(219,43,91);
+    background-color: var(--verkeerslicht-eerstekleur);
   }
   85%,
   100% {
-    background-color: rgb(38,163,252);
+    background-color: var(--verkeerslicht-tweedekleur);
   }
 }
 
-@keyframes redOnder {
+@keyframes stipOnder {
   0%,
   66% {
-    background-color: gray;
+    background-color: var(--verkeerslicht-stip);
   }
   67%,
   75% {
-    background-color: rgb(219,43,91);
+    background-color: var(--verkeerslicht-eerstekleur);
   }
   85%,
   100%{
-    background-color: rgb(38,163,252);
+    background-color: var(--verkeerslicht-tweedekleur);
   }
 }
+
 
 
 
@@ -210,28 +276,117 @@ main article:nth-of-type(1) img{ /*Styling countdown met cloud guy */
 /**********************/
 /* ARTICLE 3; TIJDLIJN */
 /**********************/
-/* Styling mushroom button */
-ol{ 
-  display: flex; /* Hulp van Sanne */
-  justify-content: space-between;
-  margin: 0;
-  list-style: none;
-}
-ol li{ /*Hulp van Sanne */
-  display: grid;
-  justify-items: center;
-  /* margin: 0; Zodra ik de tekst weghaal de margin gebruiken */
+
+section.tijdlijn {
+  position: fixed;
+  left:0;
+  right:0;
+  bottom:0;
 }
 
-li button{
-  font-size: 1.5em;
-  background-color: transparent;
+
+/* de lijst met champions */
+section.tijdlijn ol{ 
+  /* Hulp van Sanne */
+  display: flex; 
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*Hulp van Sanne */
+section.tijdlijn li{ 
+  position: relative;
+  display: grid;
+  justify-items: center;
+}
+
+/* de p */
+section.tijdlijn p {
+  position: absolute;
+  bottom:calc(100% + 1.5em);
+  left:50%;
+  transform:translateX(-50%);
+
+  width:9em;
+  padding:.5em;
+
+  background-color: var(--tekstwolkje);
+  border-radius: .5em;
+}
+
+/* hulp van sanne */
+/* het driehoekje aan de textbubble */
+section.tijdlijn p::before {
+  content:""; 
+  position: absolute;
+  top:100%;
+  left:calc(50% - .5em);
+
+  width:1em;
+  height:1em;
+
+  background: var(--tekstwolkje);
+  clip-path:polygon(0 0, 100% 0, 50% 100%, 0 0);
+}
+
+/* de button */
+section.tijdlijn li button{
+  padding:0;
+  font-size: 1em;
+  background: none;
   border: none;
 }
 
-li button img{
-  max-width: 4em;
+section.tijdlijn li button img{
+ width: 3em;
 }
 
 
 
+
+
+/********************/
+/* Afbeelding Mario */
+/********************/
+section.tijdlijn img.mario{ 
+  position: absolute;
+  left:3em;
+  bottom: 3.125em;
+  height: 5em;
+  pointer-events: none;;
+}
+
+
+
+
+
+/************************/
+/* Code voor finishlijn */
+/************************/
+section.tijdlijn div.finishline {
+  height: 3.125em;
+
+  background-image:
+    var(--finishlijn-pattern),
+    var(--rainbow-gradient);
+  background-size: 1.25em 1.25em, cover;
+
+  box-shadow:inset 0 0 0 1px var(--finishlijn-dropshadow);
+
+  animation-name: finishlijnAnimatie;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes finishlijnAnimatie{
+  0% {
+    /*Bron: hulp van Sanne */
+    background-position: left top, center center; 
+  }
+  100%{
+    background-position: -1.25em top, center center;
+  }
+}
