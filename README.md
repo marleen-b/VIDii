@@ -81,7 +81,18 @@ Mijn startniveau is: blauw
 
 <details>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
-  
+  - Elementen netjes uitgelijnd. 
+  - Let wel even op de leesbaarheid en voldoende contrast. Even testen met inspect. Ook als het darkmode is. 
+  - Gebruik maken van Fonts. Kijken wel past naar het design. 
+  - Bij de buttons nog meerdere states uitwerken.
+
+  - Misschien van verkeerslicht een ul/li maken.
+  - Handige shortcut voor netjes inspringen alt shift F
+  - Netjes structuur in CSS zelfde volgorde HTML 
+  - Welke onderbouwing heb ik om classes met camelCase te schrijven en de custom properties met-streepjes in de namen
+
+  Is het handig om bij custom properties om de kleur zwart apart te maken en die weer gebruiken in bijvoorbeeld de drop shadow. Dus een custom propertie in een custom propertie. 
+
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
 

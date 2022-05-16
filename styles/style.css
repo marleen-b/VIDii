@@ -9,7 +9,7 @@ html, body {
 }
 
 button:not([disabled]) {
-  cursor:pointer;
+  cursor: url("../images/stuurwiel.png"), pointer;
 }
 
 
@@ -20,6 +20,7 @@ button:not([disabled]) {
 /* CUSTOM PROPERTIES */
 /**********************/
 /*Kleuren voor light mode */
+/* 0(donker),1,2,3,4,5,6,7,8(midden),9,A,B,C,D,E,F(licht) */
 :root {
    --rainbow-gradient: linear-gradient(
     to right, 
@@ -52,7 +53,7 @@ button:not([disabled]) {
 }
 
 /*Kleuren voor darkmode*/
- @media (prefers-color-scheme:dark) {
+@media (prefers-color-scheme:dark) {
   :root {
     --rainbow-gradient: linear-gradient(
      to right, 
@@ -72,7 +73,7 @@ button:not([disabled]) {
  
    --tekst-kleur: #000000; /*H1 , p*/
    --tekst-kleur-button: #fff;
-   --kleur-button: yellow;
+   --kleur-button: rgb(255, 54, 27);
    --kleur-button-hover: rgb(243,29,1);
  
    --cloudguy-dropshadow: #0098;
@@ -82,8 +83,9 @@ button:not([disabled]) {
    --verkeerslicht-stip: gray;
    --verkeerslicht-eerstekleur: rgb(219, 43, 91);
    --verkeerslicht-tweedekleur:rgb(38,163, 252);
-  }
+ }
 }
+
 
 /**********************/
 /* ALGEMENE STIJLING; BODY*/
@@ -101,6 +103,8 @@ h1, p {
   text-align: center;
   margin: .5em;
 }
+
+
 
 
 
@@ -147,7 +151,7 @@ section.cloudguy {
   top:calc(50% - 9em);
 
   pointer-events: none;
-
+  /*Door filter volgt de schaduw alleen de trace van de afbeelding en niet van de box*/
   filter:drop-shadow(.5em 1em 1em var(--cloudguy-dropshadow));
 }
 
@@ -176,7 +180,7 @@ section.cloudguy img{
 }
 
 /**********************/
-/* ARTICLE 2; VERKEERSLICHT */
+/* SECTION 1 - VERKEERSLICHT */
 /**********************/
 /* Bron: https://codesandbox.io/s/6h6jg?file=/index.html */
 /*verkeerslicht basisvorm */
@@ -274,7 +278,7 @@ section.cloudguy img{
 
 
 /**********************/
-/* ARTICLE 3; TIJDLIJN */
+/* SECTION 2; TIJDLIJN */
 /**********************/
 
 section.tijdlijn {
