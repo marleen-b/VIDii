@@ -93,6 +93,8 @@ Mijn startniveau is: blauw
 
   Is het handig om bij custom properties om de kleur zwart apart te maken en die weer gebruiken in bijvoorbeeld de drop shadow. Dus een custom propertie in een custom propertie. 
 
+  Foto plaatsen van feedbackformulier en plaatsen in readme
+
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
 
@@ -176,25 +178,52 @@ Mijn startniveau is: blauw
 
 <details open>
 
-1. https://www.deviantart.com/betatus/art/Mario-Kart-ICON-412302604 - afbeelding als fav icon
-2. https://static.wikia.nocookie.net/mariokart/images/2/20/Fishin'_Lakitu_(Mario_Kart_7).png/revision/latest/scale-to-width-down/1000?cb=20131229194833 - Afbeelding van Latiku voor de countdown. De afbeelding wel aangepast in Photoshop, omdat ik het verkeerslicht met CSS wilde maken.
-3. https://css-tricks.com/css3-gradients/ - Om een Regenboog gradient te maken voor de achtergrond.
+7. https://codesandbox.io/s/6h6jg?file=/index.html - CSS code voor het maken en animeren van het verkeerslicht. 
 4. https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-conic-gradient - CSS code om een schaakbord pattern te maken voor de finishlijn.
+3. https://css-tricks.com/css3-gradients/ - Om een Regenboog gradient te maken voor de achtergrond.
+
+
+1. https://www.deviantart.com/betatus/art/Mario-Kart-ICON-412302604 - afbeelding als fav icon
+2. https://static.wikia.nocookie.net/mariokart/images/2/20/Fishin'_Lakitu_(Mario_Kart_7).png/revision/latest/scale-to-width-down/1000?cb=20131229194833 - Afbeelding van Latiku(cloudguy) voor de countdown. De afbeelding wel aangepast in Photoshop, omdat ik het verkeerslicht met CSS wilde maken.
 5. https://mariokart.fandom.com/wiki/Spiny_Shell  - Afbeelding van Blue Shell
-6. https://www.youtube.com/watch?v=-jqqHOF89b8 - Content resource voor de tijdlijn
-7. https://mariokart.fandom.com/wiki/Mushroom_(item) - Afbeelding van rode mushroom
-8. https://codesandbox.io/s/6h6jg?file=/index.html - CSS code voor het maken en animeren van het verkeerslicht. 
-9. https://commons.wikimedia.org/wiki/File:Super-Mario-Kart-Logo.png - Logo van Super Mario Kart 1992
-10. https://www.mariowiki.com/Gallery:Mario_Kart:_Super_Circuit - Logo van Mario Kart Super Circuit 2001
-11. https://www.deviantart.com/ringostarr39/art/Mario-Kart-DS-logo-738743863 - Logo van Mario Kart DS 2005
-12. https://commons.wikimedia.org/wiki/File:Mariokartwiilogo.png - Logo van Mario Kart Wii 2008
-13. https://logos.fandom.com/wiki/Mario_Kart_7 - Logo van Mario Kart 7 2011
-14. https://logos.fandom.com/wiki/Mario_Kart_8_Deluxe - Logo van Mario Kart 8 Deluxe 2017
+6. https://mariokart.fandom.com/wiki/Mushroom_(item) - Afbeelding van rode mushroom
+7. https://mariokart.fandom.com/wiki/Mushroom_(item)  - Alle mushroom afbeeldingen. Deze wel aangepast in Photoshop.
+8. https://nintendoeverything.com/horis-mario-kart-8-accessories-will-be-available-in-north-america/ - Stuurwiel voor cursor
+
+
+8. https://commons.wikimedia.org/wiki/File:Super-Mario-Kart-Logo.png - Logo van Super Mario Kart 1992
+9. https://www.mariowiki.com/Gallery:Mario_Kart:_Super_Circuit - Logo van Mario Kart Super Circuit 2001
+10. https://www.deviantart.com/ringostarr39/art/Mario-Kart-DS-logo-738743863 - Logo van Mario Kart DS 2005
+11. https://commons.wikimedia.org/wiki/File:Mariokartwiilogo.png - Logo van Mario Kart Wii 2008
+12. https://logos.fandom.com/wiki/Mario_Kart_7 - Logo van Mario Kart 7 2011
+13. https://logos.fandom.com/wiki/Mario_Kart_8_Deluxe - Logo van Mario Kart 8 Deluxe 2017
+
+
+
 15. https://4.bp.blogspot.com/-K2FuO2FjJHk/UwEyZTWL7BI/AAAAAAAAApg/dEf-azZKXcM/s1600/SMK4.png - Rainbow Road 1992
 16. https://www.youtube.com/watch?v=hlFq97q9H48 - Rainbow Road 2001 
-17. https://www.sporcle.com/games/Bowserdude/mario-kart-rainbow-road-medley - Rainbow Road 2005 V2
-18. https://saveupdata.com/news/every-version-of-mario-karts-rainbow-road-ranked/ - Rainbow Road 2005
+17. https://www.sporcle.com/games/Bowserdude/mario-kart-rainbow-road-medley - Rainbow Road 2005 
 19. https://www.wallpaperup.com/318535/screenshots_Mario_Kart_rainbow_road.html - Rainbow Road Wii 2008
 20. https://mariokart.fandom.com/wiki/Rainbow_Road_(N64) - Rainbow Road 2017 
 
+
+20. https://www.deviantart.com/betatus/art/Mario-Kart-ICON-412302604 - Mario karakter SNES 1992
 21. https://kuribo64.net/get.php?id=YJEUvarXYe9J1Ygn - Mario karakter DS 2005 
+22. https://www.youtube.com/watch?v=jr3EZPOthSo - Mario karakter GBA 2001
+23. https://www.youtube.com/watch?v=MKnNYX3E8dI - Mario karakter Wii 2008
+24. https://www.youtube.com/watch?v=VRrcXQb-TrM  - Mario karakter kart 7 2011
+35. https://www.youtube.com/watch?v=zfd6vKg0f6s - Mario karakter kart 8 deluxe 2017
+
+
+
+
+6. https://www.youtube.com/watch?v=-jqqHOF89b8 - Content resource voor de tijdlijn
+7. https://appdevelopermagazine.com/the-evolution-of-mario-kart/ - Informatie voor tijdlijn
+8. https://9gag.com/gag/aADYAE9 - Informatie voor tijdlijn
+
+
+
+
+
+
+

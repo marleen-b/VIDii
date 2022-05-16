@@ -31,17 +31,18 @@ button:not([disabled]) {
     rgb(251,175,153),
     rgb(221, 83, 65)
   );
-
-  --finishlijn-pattern: repeating-conic-gradient( /*Finishlijn*/
+  /*Finishlijn*/
+  --finishlijn-pattern: repeating-conic-gradient( 
     rgb(0 0 0 /0) 0% 25%,
     black 25% 50%
   );
   --finishlijn-dropshadow: #000000;
 
-  --tekst-kleur: #000000; /*H1 , p*/
+    /*H1 , p*/
+  --tekst-kleur: #000000; 
   --tekst-kleur-button: #fff;
   --kleur-button: rgb(255, 54, 27);
-  --kleur-button-hover: rgb(243,29,1);
+  --kleur-button-hover: #F2D64F;
 
   --cloudguy-dropshadow: #0098;
   --tekstwolkje: white;
@@ -63,15 +64,24 @@ button:not([disabled]) {
      #FBFFCA,
      #FCCABC,
      #E98F83
+     /*alternatieve kleuren rainbow*/
+     /*rgba(227,47,250,1),
+      rgba(0,70,255,1),
+      rgba(90,205,50,1),
+      rgba(254,255,0,1),
+      rgba(255,170,0,1),
+      rgba(255,46,0,1)
+      */
    );
- 
-   --finishlijn-pattern: repeating-conic-gradient( /*Finishlijn*/
+    /*Finishlijn*/
+   --finishlijn-pattern: repeating-conic-gradient( 
      rgb(0 0 0 /0) 0% 25%,
      black 25% 50%
    );
    --finishlijn-dropshadow: #000000;
  
-   --tekst-kleur: #000000; /*H1 , p*/
+    /*H1 , p*/
+   --tekst-kleur: #000000; 
    --tekst-kleur-button: #fff;
    --kleur-button: rgb(255, 54, 27);
    --kleur-button-hover: rgb(243,29,1);
@@ -87,21 +97,33 @@ button:not([disabled]) {
 }
 
 
+
+
+
 /**********************/
 /* ALGEMENE STIJLING; BODY*/
 /**********************/
 body {
   background-image:
   var(--rainbow-gradient);
-  /* background-image: url("../images/mushroom.png"); */
+  /* OM EEN BACKGROUND IMAGE TOE TE VOEGEN MAAK EEN CLASS AAN */  
+  /* background-image: url("../images/rainbowroad2001.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; Center the image */
 }
-/* OM EEN BACKGROUND IMAGE TOE TE VOEGEN MAAK EEN CLASS AAN */
+
 
 h1, p {
   color: var(--tekst-kleur);
   font-weight: bold;
   text-align: center;
   margin: .5em;
+
+  /*Beter leesbaarheid van tekst bij andere achtergrond*/
+  filter:
+  drop-shadow(0 0 .25em dodgerblue)
+  drop-shadow(0 0 .5em dodgerblue);
 }
 
 
@@ -116,12 +138,12 @@ header{ /*Hulp van Sanne */
   place-items: center; 
 }
 
-/* logo */
-header img{ /* Logo van Mario Kart */
+/* Logo van Mario Kart */
+header img{ 
   height: 8em;
 }
 
-/* play button */
+/* start button */
 header button{ 
   color: var(--tekst-kleur-button);
   background-color: var(--kleur-button);
@@ -186,24 +208,24 @@ section.cloudguy img{
 /*verkeerslicht basisvorm */
 .verkeerslicht { 
   background-color: var(--verkeerslicht-basis);
-  width: 70px; /* BAH BAH BAH BAH pixels */
-  height: 175px;
+  width: 4.4em; 
+  height: 10.9em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 5px;
-  border-radius: 10px;
+  padding: .6em .3em;
+  border-radius: .6em;
   position: absolute;
 
   left:-1em;
   top:14.5em;
 }
 
-/* Verkeerslichten */
+/* Verkeerslichten stip */
 .verkeerslicht span { 
-  width: 45px;
-  height: 45px;
+  width: 2.8em;
+  height: 2.8em;
 
   border-radius: 50%;
   background-color: var(--verkeerslicht-stip);
@@ -289,7 +311,7 @@ section.tijdlijn {
 }
 
 
-/* de lijst met champions */
+/* de lijst met mushrooms */
 section.tijdlijn ol{ 
   /* Hulp van Sanne */
   display: flex; 
@@ -335,7 +357,7 @@ section.tijdlijn p::before {
   clip-path:polygon(0 0, 100% 0, 50% 100%, 0 0);
 }
 
-/* de button */
+/* de mushroom button */
 section.tijdlijn li button{
   padding:0;
   font-size: 1em;
@@ -387,10 +409,11 @@ section.tijdlijn div.finishline {
 
 @keyframes finishlijnAnimatie{
   0% {
-    /*Bron: hulp van Sanne */
+    /*Bron: hulp van Sanne */ 
     background-position: left top, center center; 
   }
   100%{
+    /*Schaakbord pattern wordt herhaald, maar vanaf een ander startpunt*/
     background-position: -1.25em top, center center;
   }
 }

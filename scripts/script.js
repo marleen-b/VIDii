@@ -11,6 +11,7 @@ function startenEnWegvliegen (){
     verkeerslicht.classList.add("verkeerslichtAan");
     cloudGuy.classList.add("cloudGuyWegVliegen");
 }
+/*Mario verplaatsen na klik op een mushroom button*/
 var marioKarakter = document.querySelector("img.mario");
 var mushroomButton1992 = document.querySelector("li:nth-of-type(1) button");
 mushroomButton1992.addEventListener("click", naar1992);
@@ -18,4 +19,4 @@ mushroomButton1992.addEventListener("click", naar1992);
 function naar1992(){
  marioKarakter.classList.add("y1992");   
 }
-/*Met class y1992 in css positioneren animeren*/
+/*Met class y1992 in css mario positioneren animeren*/
