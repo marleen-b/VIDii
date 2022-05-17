@@ -104,37 +104,37 @@ button:not([disabled]) {
 /* ALGEMENE STIJLING; BODY*/
 /**********************/
 body {
-  background-image:
-  var(--rainbow-gradient); 
+  background-image: var(--rainbow-gradient); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
 }
 
 /*Veranderd background na klik op mushroom*/
 body.y1992{
-  animation-name: changeBackground;
-  animation-delay: 3.5s;
-  animation-fill-mode: forwards;
-  animation-duration: .5s;
-}
-
-@keyframes changeBackground {
-  0%{
-    background-image:
-    var(--rainbow-gradient);
-  }
-  100%{
-    background-image: url("../images/rainbowroad1992.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-  }
+  background-image: url("../images/rainbowroad1992.png");
 }
 
 body.y2001{
   background-image: url("../images/rainbowroad2001.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center; 
 }
+
+body.y2005{
+  background-image: url("../images/rainbowroad2005.jpg");
+}
+
+body.y2008{
+  background-image: url("../images/rainbowroad2008.jpg");
+}
+
+body.y2011{
+  background-image: url("../images/rainbowroad2011.png");
+}
+
+body.y2017{
+  background-image: url("../images/rainbowroad2017.png");
+}
+
 
 h1, p {
   color: var(--tekst-kleur);
@@ -143,11 +143,66 @@ h1, p {
   margin: .5em;
 
   /*Beter leesbaarheid van tekst bij andere achtergrond*/
+  /*Of de geen background-image maar een losse img in de main */
   filter:
   drop-shadow(0 0 .25em dodgerblue)
   drop-shadow(0 0 .5em dodgerblue);
 }
 
+
+
+
+
+/************************/
+/* ASIDE - STARTSCHERM  */
+/************************/
+/*Hulp van Sanne*/
+
+aside {
+  position: fixed;
+  inset:0;
+  z-index: 1000;
+}
+
+aside:focus {
+  pointer-events: none;
+}
+
+/* Als de overlay weg is kan je */
+aside.wegDerMee {
+  transition-delay: 4s;
+  transition-duration: .5s;
+
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+/* start button */
+aside button{ 
+  position: absolute;
+  top:10em;
+  left:50%;
+  transform: translateX(-50%);
+
+  color: var(--tekst-kleur-button);
+  background-color: var(--kleur-button);
+
+  padding: 1em ;
+  margin: 1em;
+
+  border-style: none;
+  border-radius: .5em;
+}
+
+aside button:hover{
+  background-color: var(--kleur-button-hover);
+}
+
+aside button:active{
+  /* bij klikken iets naar beneden */
+	transform:translate(-50%, 2px);
+}
 
 
 
@@ -165,23 +220,25 @@ header img{
   height: 8em;
 }
 
-/* start button */
-header button{ 
-  color: var(--tekst-kleur-button);
-  background-color: var(--kleur-button);
-  padding: 1em ;
-  margin: 1em;
-  border-style: none;
-  border-radius: .5em;
+/* Veranderd Logo na klik op mushroom*/
+header img.y2001{ 
+  content: url("../images/mariokartlogo2001.png");
 }
 
-header button:hover{
-  background-color: var(--kleur-button-hover);
+header img.y2005{ 
+  content: url("../images/mariokartlogo2005.png");
 }
 
-header button:active{
-  /* bij klikken iets naar beneden */
-	transform:translateY(2px);
+header img.y2008{ 
+  content: url("../images/mariokartlogo2008.png");
+}
+
+header img.y2011{ 
+  content: url("../images/mariokartlogo2011.png");
+}
+
+header img.y2017{ 
+  content: url("../images/mariokartlogo2017.png");
 }
 
 
@@ -421,29 +478,35 @@ section.tijdlijn img.mario.y1992{
 
 
 /*Na klik op mushroom verplaatst Mario een stukje verder*/
+/*Na klik veranderd Mario*/
 section.tijdlijn img.mario.y2001{
   transform: translateX(20vw);
   transition-delay: 0s;
+  content: url("..//images/mario2001.png");
 }
 
 section.tijdlijn img.mario.y2005{
   transform: translateX(38vw);
   transition-delay: 0s;
+  content: url("..//images/mario2005.png");
 }
 
 section.tijdlijn img.mario.y2008{
   transform: translateX(54vw);
   transition-delay: 0s;
+  content: url("..//images/mario2008.png");
 }
 
 section.tijdlijn img.mario.y2011{
   transform: translateX(70vw);
   transition-delay: 0s;
+  content: url("..//images/mario2011.png");
 }
 
 section.tijdlijn img.mario.y2017{
   transform: translateX(88vw);
   transition-delay: 0s;
+  content: url("..//images/mario2017.png");
 }
 
 

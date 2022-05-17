@@ -192,7 +192,7 @@ Mijn startniveau is: blauw
 
 
 8. https://commons.wikimedia.org/wiki/File:Super-Mario-Kart-Logo.png - Logo van Super Mario Kart 1992
-9. https://www.mariowiki.com/Gallery:Mario_Kart:_Super_Circuit - Logo van Mario Kart Super Circuit 2001
+9. https://www.pngkey.com/maxpic/u2q8i1u2o0q8i1e6/ - Logo van Mario Kart Super Circuit 2001
 10. https://www.deviantart.com/ringostarr39/art/Mario-Kart-DS-logo-738743863 - Logo van Mario Kart DS 2005
 11. https://commons.wikimedia.org/wiki/File:Mariokartwiilogo.png - Logo van Mario Kart Wii 2008
 12. https://logos.fandom.com/wiki/Mario_Kart_7 - Logo van Mario Kart 7 2011
@@ -201,7 +201,7 @@ Mijn startniveau is: blauw
 
 
 15. https://4.bp.blogspot.com/-K2FuO2FjJHk/UwEyZTWL7BI/AAAAAAAAApg/dEf-azZKXcM/s1600/SMK4.png - Rainbow Road 1992
-16. https://www.youtube.com/watch?v=hlFq97q9H48 - Rainbow Road 2001 
+16. https://saveupdata.com/news/every-version-of-mario-karts-rainbow-road-ranked/ - Rainbow Road 2001 
 17. https://www.sporcle.com/games/Bowserdude/mario-kart-rainbow-road-medley - Rainbow Road 2005 
 19. https://www.wallpaperup.com/318535/screenshots_Mario_Kart_rainbow_road.html - Rainbow Road Wii 2008
 20. https://mariokart.fandom.com/wiki/Rainbow_Road_(N64) - Rainbow Road 2017 
