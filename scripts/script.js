@@ -1,4 +1,3 @@
-
 // WEGVLIEGEN 
 // Spreekt de button aan in de header 
 var startButton = document.querySelector("aside button");
@@ -7,7 +6,6 @@ var cloudGuy = document.querySelector("section.cloudguy");
 var verkeerslicht = document.querySelector("div.verkeerslicht");
 var marioKarakter = document.querySelector("img.mario");
 var bodyBackground = document.body;
-
 
 //Speel functie startenEnWegVliegen na klik op startbutton
 startButton.addEventListener("click", startenEnWegvliegen);
@@ -19,7 +17,7 @@ function startenEnWegvliegen (){
 
     // stukje op weg en veranderd achtergrond
     marioKarakter.classList.add("y1992");
-    // Class pas toevoegen na 3,5s 
+    // Class pas toevoegen na 3.5s 
     setTimeout(() => {
         bodyBackground.classList.add("y1992");
     }, 3500)
@@ -28,6 +26,7 @@ function startenEnWegvliegen (){
     startScherm.classList.add("wegDerMee");
 
     // Mushrooms buttons zijn klikbaar met tab na klik op startknop
+    // Omdat tabindex al in HTML bestaat wordt de waarde aangepast
     mushroomButton2001.setAttribute("tabindex",0);
     mushroomButton2005.setAttribute("tabindex",0);
     mushroomButton2008.setAttribute("tabindex",0);

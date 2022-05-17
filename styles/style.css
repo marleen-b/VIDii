@@ -5,11 +5,27 @@
 html, body {
   height:100%;
   margin:0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 button:not([disabled]) {
   cursor: url("../images/stuurwiel.png"), pointer;
+}
+
+/*! Fonts geconverteerd via Font Squirrel (https://www.fontsquirrel.com)*/
+@font-face {
+  font-family: 'mariokart';
+  src: url('../fonts/mario_kart_f2-webfont.woff2') format('woff2'),
+       url('../fonts/mario_kart_f2-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'supermario';
+  src: url('../fonts/supermario256-webfont.woff2') format('woff2'),
+       url('../fonts/supermario256-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
@@ -22,6 +38,8 @@ button:not([disabled]) {
 /*Kleuren voor light mode */
 /* 0(donker),1,2,3,4,5,6,7,8(midden),9,A,B,C,D,E,F(licht) */
 :root {
+  --basis-wit: white;
+  --basis-zwart: black;
    --rainbow-gradient: linear-gradient(
     to right, 
     rgb(255,168,241),
@@ -39,7 +57,7 @@ button:not([disabled]) {
   --finishlijn-dropshadow: #000000;
 
     /*H1 , p*/
-  --tekst-kleur: #000000; 
+  --tekst-kleur: gray; 
   --tekst-kleur-button: #fff;
   --kleur-button: rgb(255, 54, 27);
   --kleur-button-hover: #F2D64F;
@@ -99,6 +117,47 @@ button:not([disabled]) {
 
 
 
+/**********************/
+/* ALGEMENE STIJLING; TEKST*/
+/**********************/
+body header h1{
+  font-family: mariokart, fantasy, sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: var(--tekst-kleur);
+  text-shadow: 1px 0 10px white;
+  -webkit-text-stroke: 1px white;
+  word-spacing: -.5em;
+  letter-spacing: 0;
+  margin: .5em;
+  text-align: center
+}
+
+body header p{
+  font-family: supermario, fantasy, sans-serif;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 1px 0 10px white;
+  color: gray;  
+}
+
+section.tijdlijn ol li p{
+  font-family: supermario, Gill Sans, fantasy, sans-serif;
+  font-size: 1em;
+  font-weight: light;
+  font-style: normal;
+  color: red;
+
+  /*Beter leesbaarheid van tekst bij andere achtergrond*/
+  /*Of de geen background-image maar een losse img in de main */
+  filter:
+  drop-shadow(0 0 .25em white)
+}
+
+
+
+
 
 /**********************/
 /* ALGEMENE STIJLING; BODY*/
@@ -109,6 +168,7 @@ body {
   background-size: cover;
   background-position: center; 
 }
+
 
 /*Veranderd background na klik op mushroom*/
 body.y1992{
@@ -136,18 +196,7 @@ body.y2017{
 }
 
 
-h1, p {
-  color: var(--tekst-kleur);
-  font-weight: bold;
-  text-align: center;
-  margin: .5em;
 
-  /*Beter leesbaarheid van tekst bij andere achtergrond*/
-  /*Of de geen background-image maar een losse img in de main */
-  filter:
-  drop-shadow(0 0 .25em dodgerblue)
-  drop-shadow(0 0 .5em dodgerblue);
-}
 
 
 
@@ -168,7 +217,7 @@ aside:focus {
   pointer-events: none;
 }
 
-/* Als de overlay weg is kan je */
+/* Als de overlay weg is kan je pas klikken op mushrooms */
 aside.wegDerMee {
   transition-delay: 4s;
   transition-duration: .5s;
@@ -181,7 +230,7 @@ aside.wegDerMee {
 /* start button */
 aside button{ 
   position: absolute;
-  top:10em;
+  top:17em;
   left:50%;
   transform: translateX(-50%);
 
@@ -199,9 +248,13 @@ aside button:hover{
   background-color: var(--kleur-button-hover);
 }
 
+aside button:focus{
+  background-color: red;
+}
+
 aside button:active{
   /* bij klikken iets naar beneden */
-	transform:translate(-50%, 2px);
+	transform:translate(-50%, 0.2em);
 }
 
 
@@ -218,9 +271,10 @@ header{ /*Hulp van Sanne */
 /* Logo van Mario Kart */
 header img{ 
   height: 8em;
+  padding: .5em;
 }
 
-/* Veranderd Logo na klik op mushroom*/
+/* Logo veranderd na klik op mushroom*/
 header img.y2001{ 
   content: url("../images/mariokartlogo2001.png");
 }
@@ -245,13 +299,13 @@ header img.y2017{
 
 
 
-
 /**********************/
 /* SECTION 1 - CLOUDGUY */
 /**********************/
 /*Positioneren Cloudguy*/
 
 section.cloudguy {
+  /*cloudguy staat altijd in het midden gepositioneerd van de viewport*/
   position: fixed;
   z-index: 50;
   left:50%;
@@ -448,7 +502,24 @@ section.tijdlijn li button{
   font-size: 1em;
   background: none;
   border: none;
+  transform:translatey(-.5em);
+  transition: 0s;
 }
+
+section.tijdlijn li button:hover{
+border: 1em 1em 1em #789FE6;
+box-sizing: 50%;
+}
+
+section.tijdlijn li button:focus{
+
+}
+section.tijdlijn li button:active{
+  filter:
+  drop-shadow(0 0 .25em yellow)
+  drop-shadow(0 0 .5em yellow);
+  transform:translatey(0);
+  }
 
 section.tijdlijn li button img{
  width: 3em;

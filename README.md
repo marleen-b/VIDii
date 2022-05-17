@@ -2,12 +2,6 @@
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
 ## Jij
 
 ### Ontwerper:
@@ -168,13 +162,16 @@ Mijn startniveau is: blauw
   Het idee was om voor de countdown niet alleen het stoplicht te gebruiken, maar net zoals in de game de aftelling zien in cijfers. bron die ik hiervoor wilde gebruiken: https://codepen.io/raulsuescun/pen/dwLWyw
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
   Vanwege tijdgebrek heb ik ervoor gekozen om dit achterwege te laten en alleen het stoplicht met de cloudguy uit te werken. Daarnaast is het belangrijker om de Evolutie van Mario Kart Rainbow Road te laten zien. 
+
+  Andere dingen die niet gelukt zijn. Was leuk geweest om erin te hebben, maar niet essentieel zoals countdown geluid uit de game. Of blue shell 
+  bron geluid: https://quicksounds.com/sound/23/mario-kart-race-start
 </details>
 
 
 
 
 
-## Bronnenlijst
+## Bronnenlijst afbeeldingen
 
 <details open>
 
@@ -221,9 +218,12 @@ Mijn startniveau is: blauw
 7. https://appdevelopermagazine.com/the-evolution-of-mario-kart/ - Informatie voor tijdlijn
 8. https://9gag.com/gag/aADYAE9 - Informatie voor tijdlijn
 
+9. https://www.dafont.com/super-mario-256.font - Bron fonts
+10. https://fontmeme.com/fonts/mario-kart-f2-font/#previewtool - Mario kart font
+
+https://www.fontsquirrel.com/tools/webfont-generator - Voor omzetten Font-types van ttf naar woff & woff2.
 
 
+## Bronnenlijst voor code
 
-
-
-
+<details open>
