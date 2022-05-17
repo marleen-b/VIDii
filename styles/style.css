@@ -105,14 +105,36 @@ button:not([disabled]) {
 /**********************/
 body {
   background-image:
-  var(--rainbow-gradient);
-  /* OM EEN BACKGROUND IMAGE TOE TE VOEGEN MAAK EEN CLASS AAN */  
-  /* background-image: url("../images/rainbowroad2001.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; Center the image */
+  var(--rainbow-gradient); 
 }
 
+/*Veranderd background na klik op mushroom*/
+body.y1992{
+  animation-name: changeBackground;
+  animation-delay: 3.5s;
+  animation-fill-mode: forwards;
+  animation-duration: .5s;
+}
+
+@keyframes changeBackground {
+  0%{
+    background-image:
+    var(--rainbow-gradient);
+  }
+  100%{
+    background-image: url("../images/rainbowroad1992.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+  }
+}
+
+body.y2001{
+  background-image: url("../images/rainbowroad2001.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; 
+}
 
 h1, p {
   color: var(--tekst-kleur);
@@ -147,13 +169,19 @@ header img{
 header button{ 
   color: var(--tekst-kleur-button);
   background-color: var(--kleur-button);
-  padding: 1em 3em ;
+  padding: 1em ;
+  margin: 1em;
   border-style: none;
   border-radius: .5em;
 }
 
 header button:hover{
   background-color: var(--kleur-button-hover);
+}
+
+header button:active{
+  /* bij klikken iets naar beneden */
+	transform:translateY(2px);
 }
 
 
@@ -328,7 +356,7 @@ section.tijdlijn li{
   justify-items: center;
 }
 
-/* de p */
+/* het tekstwolkje */
 section.tijdlijn p {
   position: absolute;
   bottom:calc(100% + 1.5em);
@@ -378,13 +406,45 @@ section.tijdlijn li button img{
 /********************/
 section.tijdlijn img.mario{ 
   position: absolute;
-  left:3em;
+  left:.5em;
   bottom: 3.125em;
   height: 5em;
-  pointer-events: none;;
+  pointer-events: none;
+  transition: 2s;
+}
+
+/*Met hulp van Sanne veranderd van keyframes naar transition*/
+section.tijdlijn img.mario.y1992{
+  transition-delay: 3.5s;
+  transform: translateX(8vw);
 }
 
 
+/*Na klik op mushroom verplaatst Mario een stukje verder*/
+section.tijdlijn img.mario.y2001{
+  transform: translateX(20vw);
+  transition-delay: 0s;
+}
+
+section.tijdlijn img.mario.y2005{
+  transform: translateX(38vw);
+  transition-delay: 0s;
+}
+
+section.tijdlijn img.mario.y2008{
+  transform: translateX(54vw);
+  transition-delay: 0s;
+}
+
+section.tijdlijn img.mario.y2011{
+  transform: translateX(70vw);
+  transition-delay: 0s;
+}
+
+section.tijdlijn img.mario.y2017{
+  transform: translateX(88vw);
+  transition-delay: 0s;
+}
 
 
 
