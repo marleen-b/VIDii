@@ -1,7 +1,3 @@
-# Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
 ## Jij
 
 ### Ontwerper:
@@ -57,11 +53,11 @@ Mijn startniveau is: blauw
   <summary>Mijn bevindingen + wijzigingen</summary>
 
   ### Bevinding 1:
-  Tijdens de eerste feedbacksessie had ik meerdere schetsen gemaakt van concepten. Ik had twee hoofdconcepten en een aantal losse ideeën die ik kan combineren met de hoofdconcepten. Nu stond ik dus wel op het punt dat ik een keuze moest maken tussen de twee concepten.
+  Voor de eerste feedbacksessie had ik meerdere schetsen gemaakt van concepten. Ik had twee hoofdconcepten en een aantal losse ideeën die ik kan combineren met de hoofdconcepten. Nu stond ik dus wel op het punt dat ik een keuze moest maken tussen de twee concepten.
   Ik had dus nog geen keuze gemaakt welk concept ik ga uitwerken. En welke losse ideeën ik ga toepassen.
  
   #### oplossing:
-  Tijdens het toelichten van mijn concepten aan mijn medestudenten merkte ik dat ik enthousiaster werd over het tweede concept. Het concept waarbij ik Mario laat racen door de versies van Rainbow Road. We kwamen ook tot de conclusie dat het eerste concept een beetje statisch is. Waardoor het minder leuk kan zijn om deze te maken. Bovendien past het tweede concept meer bij Mario Kart
+  Tijdens het toelichten van mijn concepten aan mijn medestudenten merkte ik dat ik enthousiaster werd over het tweede concept. Het concept waarbij ik Mario laat racen door de versies van Rainbow Road. We kwamen ook tot de conclusie dat het eerste concept een beetje statisch is. Waardoor het minder leuk kan zijn om deze te gaan maken. Bovendien past het tweede concept meer bij Mario Kart
   
 
   ### Bevinding 2:
@@ -70,9 +66,9 @@ Mijn startniveau is: blauw
 
   #### oplossing:
   Ik kreeg als feedback om niet alle functies te kiezen om uit te gaan werken. Zodat het niet teveel wordt. 
-  Ik kwam tot de conclusie dat de besturing verwarrend kan zijn als ik de racelijn en slider met verschillende consoles uitwerk. 
-  Omdat beide elementen bijna op dezelfde plek komen te staan. Op basis van mijn niveau vond ik zelf de racelijn het meest haalbare om te gaan maken. 
-  Informatie weergeven over de game platform zoals welke nieuwe karakters en items uitkwamen is leuk, maar niet essentieel. Het paste naar mijn mening meer bij Mario Kart in het algemeen. 
+  Ik kwam ook tot de conclusie dat de besturing verwarrend kan zijn als ik de racelijn en slider met verschillende consoles uitwerk. 
+  Omdat beide elementen bijna op dezelfde plek komen te staan. Op basis van mijn niveau vond ik zelf de racelijn het meest haalbare om te gaan uitwerken. 
+  het idee om informatie weer te geven over de game platform zoals welke nieuwe karakters en items uitkwamen is leuk, maar niet essentieel. Het paste naar mijn mening meer bij Mario Kart in het algemeen. 
 
   ### Bevinding 3:
   Final concept schets om overzicht te krijgen wat ik ga maken.
@@ -92,10 +88,10 @@ Mijn startniveau is: blauw
   ### Bevinding 5:
   Verkeerslicht voor countdown 
   Voor het beginscherm leek het mij heel leuk om een countdown te laten zien met de bekende cloudguy uit de Mario Kart Game.
-  En natuurlijk moet er dan een verkeerslicht in voorkomen. Maar ik wilde voor het verkeerslicht geen image gebruiken.
+  En natuurlijk moet er dan een verkeerslicht in voorkomen. Maar ik wilde voor het verkeerslicht geen image gebruiken, want het vaak draait natuurlijk om CSS. 
 
 </details>
-  Dus om het verkeerslicht te maken ben ik op zoek gegaan naar de juiste CSS code. Ik vond deze bron hiervoor: https://codesandbox.io/s/6h6jg?file=/index.html. Dankzij een tip van een klasgenoot koos ik ervoor om de cloudguy te editten in Photoshop, zodat alleen de cloudguy en de vishaak overblijft. Het verkeerslicht heb ik uiteindelijk zo gepositioneerd dat hij lijkt als of het aan het haakje hangt. 
+  Dus om het verkeerslicht te maken ben ik op zoek gegaan naar de juiste CSS code. Ik vond deze bron hiervoor: https://codesandbox.io/s/6h6jg?file=/index.html. Dankzij een tip van een klasgenoot koos ik ervoor om de cloudguy te editten in Photoshop, zodat alleen de cloudguy en de vishaak overblijft. Het verkeerslicht heb ik uiteindelijk zo gepositioneerd dat hij lijkt als of het aan het vishaakje hangt. 
 <img src="readme-images/cloudguy.png" width="500px" alt="formulier van feedbackformulier">
 
 
@@ -109,11 +105,12 @@ Mijn startniveau is: blauw
 
 
   ### Bevinding 1:
-  Let wel even op de leesbaarheid en voldoende contrast. Even testen met inspect. Ook als het darkmode is.
+  Let wel even op de leesbaarheid en voldoende contrast tussen de kleuren. Ook als het darkmode is.
   Is het handig om bij custom properties om de kleur zwart apart te maken en die weer gebruiken in bijvoorbeeld de drop shadow. Dus een custom propertie in een custom propertie.  
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+
 
 
 
@@ -183,32 +180,35 @@ Mijn startniveau is: blauw
 
   ### Je uitkomst - karakteristiek screenshot(s):
   <img src="readme-images/finalconcept.jpg" width="1000px" alt="schets van eindconcept">
-  <img src="readme-images/finalconcept.jpg" width="375px" alt="screenshot van final ontwerp deel 1">
-  <img src="readme-images/finalconcept.jpg" width="375px" alt="screenshot van final ontwerp deel 2"
+  <img src="readme-images/finalconceptdeel1.png" width="375px" alt="screenshot van final ontwerp deel 1">
+  <img src="readme-images/finalconceptdeel2.png" width="375px" alt="screenshot van final ontwerp deel 2"
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
-  - Javascript code schrijven voor het maken van een interactie. Voor mij is Javascript heel lastig en deze code lukte mij helemaal zelf te schrijven na de les over JS. 
- - Gebruik maken van custom properties en root.
- - Hoe je position absolute kan gebruiken. Het is belangrijk dat de parent position relative krijgt. Bij position absolute wordt het element relatief gepositioneerd op basis van de parent met position relative.
+  1. Ik heb heel veel leren Javascript code schrijven voor het maken van een interactie. Voor mij persoonlijk vond ik CSS code heel lastig. Laat staan Javascript. Maar het is mij gelukt om de eerste javascript code voor de functie startenEnWegen helemaal zelf te schrijven.
+  2. Ik heb voor het eerst kennis gemaakt met custom properties, waarbij je alle kleuren in de root plaatst. Waardoor je met één klik een kleur kan aanpassen voor alle buttons of teksten. Bovendien kan je hierdoor super gemakkelijk een Dark mode kleurenpalette maken. 
+  <img src="readme-images/customproperties.png" width="375px" alt="screenshot uit CSS"
+  3. Ik heb een element laten veranderen na een klik op button. Uiteindelijk is dit zelfs zo uit de hand gelopen dat ik meerdere verschillende elementen heb veranderd door middel van één klik. 
+ 
 
-
+ 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
-  Het idee was om voor de countdown niet alleen het stoplicht te gebruiken, maar net zoals in de game de aftelling zien in cijfers. bron die ik hiervoor wilde gebruiken: https://codepen.io/raulsuescun/pen/dwLWyw
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
-  Vanwege tijdgebrek heb ik ervoor gekozen om dit achterwege te laten en alleen het stoplicht met de cloudguy uit te werken. Daarnaast is het belangrijker om de Evolutie van Mario Kart Rainbow Road te laten zien. 
+  1. Ik had het idee om voor de countdown niet allen het verkeerslicht te laten zien, maar net zoals in het spel ook de aftelling laten zien met cijfers. Ik had hiervoor de volgende bron willen gebruiken: https://codepen.io/raulsuescun/pen/dwLWyw
+  Vanwege onder anderen de tijd heb ik ervoor gekozen om dit achterwege te laten en alleen het stoplicht met de cloudguy uit te werken.
+  Tijdens het uitwerken van de cloudguy was er namelijk nog weinig zichtbaar van de tijdlijn, terwijl de opdracht natuurlijk draait om de 
+  Evolutie van Mario Kart Rainbow Road te laten zien. 
 
-  Andere dingen die niet gelukt zijn. Was leuk geweest om erin te hebben, maar niet essentieel zoals countdown geluid uit de game. Of blue shell 
-  bron geluid: https://quicksounds.com/sound/23/mario-kart-race-start
+  2. Een ander idee was het toevoegen van geluid aan de countdown. Dit idee was heel leuk geweest om erin te hebben, maar niet een must have. Ik wilde bovendien dat de belangrijkste elementen van de tijdlijn eerst klaar hebben. Bron geluid: https://quicksounds.com/sound/23/mario-kart-race-start
 
-  Blue shell ontploft zoals de oefening met de kikker en Mario staat weer bij het beginpunt. 
+  3. Ik had express ervoor gekozen dat de gebruiker alleen vooruit kan gaan op de tijdlijn. Want ik wilde de blue shell gebruiken.
+  De blue shell item is voor vele spelers het item dat roet in de race gooit. En je soms van de eerste plaat helemaal naar de laatste plek brengt in de ranking. Het idee was om de blue shell te laten ontploffen. Net zoals de oefening met de kikker. Door de ontploffing wordt Mario weer terug gegooid naar het beginpunt van de tijdlijn.
+  <img src="readme-images/blueshell.png" width="375px" alt="foto van blue shell"
 
-  https://codepen.io/pulpexploder/pen/MJRPKE?editors=1100 voor bounce effect 
-
-  Vooral evalueren dit kan de volgende beter.
+  4. Ik wilde heel graag nog een darkmodus toevoegen aan de root, maar op het eind toch vanwege tijdgebrek dit even achterwege gelaten. 
+ 
+  
 </details>
 
 
@@ -218,7 +218,7 @@ Mijn startniveau is: blauw
 ## Bronnenlijst afbeeldingen
 
 <details open>
-- Veel afbeeldingen heb ik nog wel aangepast in Photoshop, zodat de afbeeldingen geen achtergrond hebben.
+- Veel vann de afbeeldingen heb ik nog wel aangepast in Photoshop, zodat de afbeeldingen geen achtergrond hebben.
 
 1. https://www.deviantart.com/betatus/art/Mario-Kart-ICON-412302604 - afbeelding voor fav icon
 2. https://static.wikia.nocookie.net/mariokart/images/2/20/Fishin'_Lakitu_(Mario_Kart_7).png/revision/latest/scale-to-width-down/1000?cb=20131229194833 - Afbeelding van Latiku(cloudguy) voor de countdown. De afbeelding wel aangepast in Photoshop, omdat ik het verkeerslicht met CSS wilde maken.
