@@ -13,12 +13,13 @@ Mijn startniveau is: blauw
 # Je plan
 
 <details open>
-  ### De eerste versie/schets:
-  <img src="readme-images/schetsconcept1.png" width="500px" alt="eerste concept/schets">
+
+### De eerste versie/schets:
+  <img src="readme-images/schetsconcept1.png" width="1000px" alt="eerste concept/schets">
   Schets van eerste concept
   <img src="readme-images/schetsconcept2.png" width="1000px" alt="tweede concept/schets">
   Schetsen van tweede concept
-  <img src="readme-images/schetsenideetjes.png" width="500px" alt="schetsen van losse ideeën">
+  <img src="readme-images/schetsenideetjes.png" width="1000px" alt="schetsen van losse ideeën">
   Schetsen van losse ideeën die te combineren zijn met concept 2.
 
   Mario Kart is een klassieker die bijna iedereen wel kent. En welke course komt in elke Mario Kart game terug? Jazeker, Rainbow Road. Wat ook één van mijn favoriete Mario Kart baan is.
