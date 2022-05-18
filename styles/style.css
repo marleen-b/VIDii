@@ -38,8 +38,8 @@ button:not([disabled]) {
 /*Kleuren voor light mode */
 /* 0(donker),1,2,3,4,5,6,7,8(midden),9,A,B,C,D,E,F(licht) */
 :root {
-  --basis-kleur: white;  /**/
-  --basis-schaduw: black;
+  --basiskleur-licht: white; 
+  --basiskleur-donker: black;
    --rainbow-gradient: linear-gradient(
     to right, 
     rgb(255,168,241),
@@ -52,20 +52,21 @@ button:not([disabled]) {
   /*Finishlijn*/
   --finishlijn-pattern: repeating-conic-gradient( 
     rgb(0 0 0 /0) 0% 25%,
-    black 25% 50%
+    var(--basiskleur-donker)25% 50%
+   
   );
-  --finishlijn-dropshadow: #000000;
+  --finishlijn-dropshadow: var(--basiskleur-donker);
 
     /*H1 , p*/
-  --tekst-kleur: gray; 
-  --tekst-kleur-button: #fff;
+  --tekst-kleur: #c6c5d4; 
+  --tekst-kleur-button: var(--basiskleur-licht);
   --kleur-button: rgb(255, 54, 27);
   --kleur-button-hover: #F2D64F;
 
   --cloudguy-dropshadow: #0098;
-  --tekstwolkje: white;
+  --tekstwolkje: var(--basiskleur-licht);
 
-  --verkeerslicht-basis: black;
+  --verkeerslicht-basis: var(--basiskleur-donker);
   --verkeerslicht-stip: gray;
   --verkeerslicht-eerstekleur: rgb(219, 43, 91);
   --verkeerslicht-tweedekleur:rgb(38,163, 252);
@@ -94,12 +95,12 @@ button:not([disabled]) {
     /*Finishlijn*/
    --finishlijn-pattern: repeating-conic-gradient( 
      rgb(0 0 0 /0) 0% 25%,
-     black 25% 50%
+     var(--basiskleur-donker) 25% 50%
    );
-   --finishlijn-dropshadow: #000000;
+   --finishlijn-dropshadow: var(--basiskleur-donker);
  
     /*H1 , p*/
-   --tekst-kleur: #000000; 
+   --tekst-kleur: var(--basiskleur-donker); 
    --tekst-kleur-button: #fff;
    --kleur-button: rgb(255, 54, 27);
    --kleur-button-hover: rgb(243,29,1);
@@ -124,11 +125,12 @@ body header h1{
   font-family: mariokart, fantasy, sans-serif;
   font-size: 1.8em;
   font-weight: bold;
+  word-spacing: -.5em;
+  letter-spacing: 0;
+
   color: var(--tekst-kleur);
   text-shadow: 1px 0 10px white;
   -webkit-text-stroke: 1px white;
-  word-spacing: -.5em;
-  letter-spacing: 0;
   margin: .5em;
   text-align: center
 }
@@ -138,21 +140,11 @@ body header p{
   font-size: 1em;
   font-style: italic;
   font-weight: bold;
-  text-shadow: 1px 0 10px white;
-  color: gray;  
-}
-
-section.tijdlijn ol li p{
-  font-family: supermario, Gill Sans, fantasy, sans-serif;
-  font-size: 1em;
-  font-weight: light;
-  font-style: normal;
-  color: red;
-
-  /*Beter leesbaarheid van tekst bij andere achtergrond*/
-  /*Of de geen background-image maar een losse img in de main */
-  filter:
-  drop-shadow(0 0 .25em white)
+  color: var(--tekst-kleur);
+  text-shadow: 1px 0 10px var(--basiskleur-donker);
+  text-shadow: 1px 0 10px (--basiskleur-donker);
+  -webkit-text-stroke: 1px (--basiskleur-donker);
+   
 }
 
 
@@ -496,6 +488,44 @@ section.tijdlijn p::before {
   clip-path:polygon(0 0, 100% 0, 50% 100%, 0 0);
 }
 
+section.tijdlijn ol li p{
+  font-family: supermario, Gill Sans, fantasy, sans-serif;
+  font-size: 1em;
+  font-weight: light;
+  font-style: normal;
+  color:red;
+  /*Element is verstopt, maar niet verwijderd van normal flow. Het neemt nog steeds de ruimte in*/
+  visibility: hidden;
+
+  /*Beter leesbaarheid van tekst bij andere achtergrond*/
+  /*Of de geen background-image maar een losse img in de main */
+  filter:
+  drop-shadow(0 0 .25em white)
+}
+
+/*Eerste tekstwolkje is wel al zichtbaar*/
+section.tijdlijn ol li:nth-of-type(1) p{
+  visibility: visible;
+}
+
+/*Bron code: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup*/
+/*Toelichting: https://alistapart.com/article/now-you-see-me/ */
+section.tijdlijn p.showTekst{
+  /*Geen display:none, omdat de ruimte nog wel moet worden ingenomen door het element*/
+  visibility:visible;
+  animation: popUp 1s;
+}
+
+@keyframes popUp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity:1 ;
+  }
+}
+
+
 /* de mushroom button */
 section.tijdlijn li button{
   padding:0;
@@ -511,9 +541,9 @@ border: 1em 1em 1em #789FE6;
 box-sizing: 50%;
 }
 
-section.tijdlijn li button:focus{
+/* section.tijdlijn li button:focus{
 
-}
+} */
 section.tijdlijn li button:active{
   filter:
   drop-shadow(0 0 .25em yellow)

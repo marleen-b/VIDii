@@ -15,8 +15,9 @@ function startenEnWegvliegen (){
     verkeerslicht.classList.add("verkeerslichtAan");
     cloudGuy.classList.add("cloudGuyWegVliegen");
 
-    // stukje op weg en veranderd achtergrond
+    // stukje op weg en achtergrond image veranderd
     marioKarakter.classList.add("y1992");
+
     // Class pas toevoegen na 3.5s 
     setTimeout(() => {
         bodyBackground.classList.add("y1992");
@@ -32,6 +33,7 @@ function startenEnWegvliegen (){
     mushroomButton2008.setAttribute("tabindex",0);
     mushroomButton2011.setAttribute("tabindex",0);
     mushroomButton2017.setAttribute("tabindex",0);
+
     //Na klik op start is deze knop niet meer klikbaar via tab
     startButton.setAttribute("tabindex", -1);
 }
@@ -42,32 +44,39 @@ var mushroomButton2008 = document.querySelector("li:nth-of-type(4) button");
 var mushroomButton2011 = document.querySelector("li:nth-of-type(5) button");
 var mushroomButton2017 = document.querySelector("li:nth-of-type(6) button");
 
-var marioKartLogo = document.querySelector("header img")
+var marioKartLogo = document.querySelector("header img");
+var tekstWolkje = document.querySelector("section.tijdlijn ol li p");
+
 // Na klik op mushroom speel functie naarJAARTAL af 
-// Background veranderd na klik op mushroom button
-// Mario verplaatst na klik op een mushroom button
 mushroomButton2001.addEventListener("click", naar2001);
 mushroomButton2005.addEventListener("click", naar2005);
 mushroomButton2008.addEventListener("click", naar2008);
 mushroomButton2011.addEventListener("click", naar2011);
 mushroomButton2017.addEventListener("click", naar2017);
 
+
+// Background veranderd na klik op mushroom button
+// Mario verplaatst na klik op een mushroom button
+// Logo veranderd na klik op mushroom button
 function naar2001(){
-    //verander Mario image
+    //verander Mario karakter image
     marioKarakter.classList.add("y2001");   
     // Verander background image
     bodyBackground.classList.add("y2001");
     // Verander Mario Kart Logo
     marioKartLogo.classList.add("y2001");
-    
-    mushroomButton2001.setAttribute("tabindex",-1);
+    // Popup voor tekstwolkje
+    tekstWolkje.classList.add("showTekst");
+    // Mushroom is niet meer klikbaar na 1x klikken
+    mushroomButton2001.setAttribute("tabindex",-1);;
 }
 
-// Herhaling vorige code, ander jaartal
+// Herhaling vorige functie code, maar met ander jaartal
 function naar2005(){
     marioKarakter.classList.add("y2005");   
     bodyBackground.classList.add("y2005");
     marioKartLogo.classList.add("y2005");
+    tekstWolkje.classList.add("showTekst");
     mushroomButton2005.setAttribute("tabindex",-1);
 }
 
@@ -75,16 +84,17 @@ function naar2008(){
     marioKarakter.classList.add("y2008");   
     bodyBackground.classList.add("y2008");
     marioKartLogo.classList.add("y2008");  
+    tekstWolkje.classList.add("showTekst");
     // Je kan alleen maar vooruit klikken
     mushroomButton2005.setAttribute("tabindex",-1); 
-    mushroomButton2008.setAttribute("tabindex",-1);
-    
+    mushroomButton2008.setAttribute("tabindex",-1);   
 }
 
 function naar2011(){
     marioKarakter.classList.add("y2011");   
     bodyBackground.classList.add("y2011");
     marioKartLogo.classList.add("y2011"); 
+    tekstWolkje.classList.add("showTekst");
     mushroomButton2005.setAttribute("tabindex",-1); 
     mushroomButton2008.setAttribute("tabindex",-1)
     mushroomButton2011.setAttribute("tabindex",-1);
@@ -94,9 +104,9 @@ function naar2017(){
     marioKarakter.classList.add("y2017");   
     bodyBackground.classList.add("y2017");
     marioKartLogo.classList.add("y2017"); 
+    tekstWolkje.classList.add("showTekst");
     mushroomButton2005.setAttribute("tabindex",-1); 
     mushroomButton2008.setAttribute("tabindex",-1)
     mushroomButton2011.setAttribute("tabindex",-1);
-    mushroomButton2017.setAttribute("tabindex",-1);
-    
+    mushroomButton2017.setAttribute("tabindex",-1);   
 }
