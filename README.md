@@ -76,6 +76,12 @@ Mijn startniveau is: blauw
   Het is natuurlijk handig om een schets te hebben van je eindconcept, zodat je weet wat je wilt gaan maken. Daarnaast helpt het mij ook om meer overzicht te krijgen. Zoals met welk element ga ik starten. 
   <img src="readme-images/finalconcept.jpg" width="1000px" alt="schets van eindconcept">
 
+  ### Bevinding 4:
+  Schaakbord pattern maken voor finishlijn
+
+  ### Bevinding 5:
+  Verkeerslicht voor countdown 
+
 </details>
 
 
