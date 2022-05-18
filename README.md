@@ -27,11 +27,7 @@ Mijn startniveau is: blauw
 
   #### Schetsen van tweede concept: 
   <img src="readme-images/schetsconcept2.png" width="1000px" alt="tweede concept/schets"> 
-    Het idee is om Mario te laten 'racen' door de versies van Rainbow Road heen. Bij elke mushroom veranderd Mario naar een andere game versie van Mario Kart. Ook zie je de achtergrond veranderen naar de Rainbow Road course uit dezelfde game. 
-
-    De mushroom is eigenlijk een soort van Easter egg verwijzing naar de Super Mario Bros game. Als Mario in het spel een mushroom pakte wordt hij groter. Het idee is dan op een leuke manier de upgrade te laten zien van Mario in Mario Kart en natuurlijk Rainbow Road zelf. 
-
-    Het lijkt er op dat Mario de finish gaat bereiken, maar dan vliegt er een Blue shell het scherm binnen. Waarna de gebruiker weer terug wordt gegooid naar het begin van de tijdlijn.  Dit is natuurlijk een verwijzing naar de bekende Blue shell uit de Mario Kart games. De Blue shell staat er om bekend om de race van de speler die op de eerste plaats rijdt te dwarsbomen. Met soms als resultaat dat de hele ranking wordt omgegooid. 
+    Het idee is om Mario te laten 'racen' door de versies van Rainbow Road heen. Bij elke mushroom veranderd Mario naar een andere game versie van Mario Kart. Ook zie je de achtergrond veranderen naar de Rainbow Road course uit dezelfde game. De mushroom is eigenlijk een soort van Easter egg verwijzing naar de Super Mario Bros game. Als Mario in het spel een mushroom pakte wordt hij groter. Het idee is dan op een leuke manier de upgrade te laten zien van Mario in Mario Kart en natuurlijk Rainbow Road zelf. Het lijkt er op dat Mario de finish gaat bereiken, maar dan vliegt er een Blue shell het scherm binnen. Waarna de gebruiker weer terug wordt gegooid naar het begin van de tijdlijn.  Dit is natuurlijk een verwijzing naar de bekende Blue shell uit de Mario Kart games. De Blue shell staat er om bekend om de race van de speler die op de eerste plaats rijdt te dwarsbomen. Met soms als resultaat dat de hele ranking wordt omgegooid. 
 
  #### Schetsen van losse ideeën die te combineren zijn met concept 2:
   <img src="readme-images/schetsenideetjes.png" width="1000px" alt="schetsen van losse ideeën">
