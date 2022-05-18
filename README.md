@@ -15,30 +15,33 @@ Mijn startniveau is: blauw
 <details open>
 
 ### De eerste versie/schets:
-  <img src="readme-images/schetsconcept1.png" width="1000px" alt="eerste concept/schets">
-  Schets van eerste concept
-  <img src="readme-images/schetsconcept2.png" width="1000px" alt="tweede concept/schets">
-  Schetsen van tweede concept
-  <img src="readme-images/schetsenideetjes.png" width="1000px" alt="schetsen van losse ideeën">
-  Schetsen van losse ideeën die te combineren zijn met concept 2.
-
   Mario Kart is een klassieker die bijna iedereen wel kent. En welke course komt in elke Mario Kart game terug? Jazeker, Rainbow Road. Wat ook één van mijn favoriete Mario Kart baan is.
   Voor sommigen spelers een baan vol trauma's, omdat je regelmatig van de baan vliegt en voor andere weer niet. 
   Ik heb er dus voor gekozen om een tijdlijn te maken van Rainbow Road. 
 
-  Het idee is om Mario te laten 'racen' door de versies van Rainbow Road heen. Bij elke mushroom veranderd Mario naar een andere game versie van Mario Kart. Ook zie je de achtergrond veranderen naar de Rainbow Road course uit dezelfde game. 
+   <img src="readme-images/schetsconcept1.png" width="1000px" alt="eerste concept/schets">
+  Schets van eerste concept: Het scherm is verdeeld in de kleuren van de regenboog. Elke rij heeft een eigen kleur en Mario Kart versie. 
+  Als je op één van de rijen klikt, klapt deze open en verschijnt er meer informatie.
+  Zoals welke nieuwe karakters verschenen in deze Mario Kart serie of welke nieuwe items zijn toegevoegd aan de game. En natuurlijk een video waarin de baan te zien is.
+
+  <img src="readme-images/schetsconcept2.png" width="1000px" alt="tweede concept/schets">
+  Schetsen van tweede concept: Het idee is om Mario te laten 'racen' door de versies van Rainbow Road heen. Bij elke mushroom veranderd Mario naar een andere game versie van Mario Kart. Ook zie je de achtergrond veranderen naar de Rainbow Road course uit dezelfde game. 
 
   De mushroom is eigenlijk een soort van Easter egg verwijzing naar de Super Mario Bros game. Als Mario in het spel een mushroom pakte wordt hij groter. Het idee is dan op een leuke manier de upgrade te laten zien van Mario in Mario Kart en natuurlijk Rainbow Road zelf. 
 
   Het lijkt er op dat Mario de finish gaat bereiken, maar dan vliegt er een Blue shell het scherm binnen. Waarna de gebruiker weer terug wordt gegooid naar het begin van de tijdlijn.  Dit is natuurlijk een verwijzing naar de bekende Blue shell uit de Mario Kart games. De Blue shell staat er om bekend om de race van de speler die op de eerste plaats rijdt te dwarsbomen. Met soms als resultaat dat de hele ranking wordt omgegooid. 
 
+  <img src="readme-images/schetsenideetjes.png" width="1000px" alt="schetsen van losse ideeën">
+  Schetsen van losse ideeën die te combineren zijn met concept 2.
+  - startscherm, waarbij je de bekende countdown ziet voordat de race begint. Of in dit geval de tijdlijn.
+  - De startopstelling voor de race, waarbij je 8 verschillende versies ziet van Mario uit de Mario Kart series. Als je op een Mario klikt veranderd de achtergrond naar hoe Rainbow Road eruit ziet in die game.
 
 
   ### Mijn ambitie: 
   Aan deze technieken/punten wil ik werken:
   - Het vak halen ;)
   - Een voldoende halen
-  - Meerdere elementen maken door het gebruik van animaties(keyframes) en Javascript.
+  - Meerdere elementen maken door het gebruik van animaties(keyframes) interacties met Javascript.
  
 </details>
 
@@ -51,14 +54,13 @@ Mijn startniveau is: blauw
   <summary>Mijn bevindingen + wijzigingen</summary>
 
   ### Bevinding 1:
-  Een keuze maken tussen de verschillende concepten Ik heb eigenlijk twee concepten met daarom heen allemaal losse ideeën.
+  Een keuze maken tussen de verschillende concepten Ik heb eigenlijk twee concepten, maar ik had nog geen keuze gemaakt welke ik verder ga uitwerken. En welke losse ideeën ik weg laat of juist uitwerk. 
 
   #### oplossing:
-  Tijdens het uitleggen van mijn concepten aan medestudenten werd ik enthousiaster over het tweede concept. Ik heb dus de keuze gemaakt om het tweede concept verder uit te werken. We kwamen tot de conclusie dat het eerste concept een beetje statisch is, waardoor het ook minder leuk is om te maken. 
-
+  Tijdens het toelichten van mijn concepten aan medestudenten merkte ik dat ik enthousiaster werd over het tweede concept. Ik heb dus de keuze gemaakt om het tweede concept verder uit te werken. Ook kwamen we tot de conclusie dat het eerste concept een beetje statisch is, waardoor het ook minder leuk is om te maken. 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Keuze maken uit de losse ideeën
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
@@ -66,7 +68,11 @@ Mijn startniveau is: blauw
 
 
   ### Bevinding 3:
-  ...
+  Final concept schetsen om overzicht te krijgen wat ik ga maken.
+
+
+  #### oplossing:
+  <img src="readme-images/finalconcept.jpg" width="1000px" alt="schets van eindconcept">
 
 </details>
 
