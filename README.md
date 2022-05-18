@@ -172,32 +172,40 @@ Met hulp van Sanne kwam ik er achter dat wel elk tekstwolkje een eigen variabel 
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  1. Ik heb heel veel leren Javascript code schrijven voor het maken van een interactie. Voor mij persoonlijk vond ik CSS code heel lastig. Laat staan Javascript. Maar het is mij gelukt om de eerste javascript code voor de functie startenEnWegen helemaal zelf te schrijven. Ook daarna merkte ik dat het vrij gemakkelijk ging om de eerste stukken code te schrijven voor Javascript. Soms voor de laatste puntjes op de 'i' wel hulp gehad, maar ik mag niet ontevreden zijn hierover.
 
- <img src="readme-images/customproperties.png" width="375px" alt="screenshot uit CSS"
-  2. Ik heb voor het eerst kennis gemaakt met custom properties, waarbij je alle kleuren in de root plaatst. Waardoor je met één klik een kleur kan aanpassen voor alle buttons of teksten. Bovendien kan je hierdoor super gemakkelijk een Dark mode kleurenpalette maken. 
+  #### 1:
+  Ik heb heel veel leren Javascript code schrijven voor het maken van een interactie. Voor mij persoonlijk vond ik CSS code heel lastig. Laat staan Javascript. Maar het is mij gelukt om de eerste javascript code voor de functie startenEnWegen helemaal zelf te schrijven. Ook daarna merkte ik dat het vrij gemakkelijk ging om de eerste stukken code te schrijven voor Javascript. Soms voor de laatste puntjes op de 'i' wel hulp gehad, maar ik mag niet ontevreden zijn hierover.
+  <img src="readme-images/customproperties.png" width="375px" alt="screenshot uit CSS"
+
+  #### 2:
+  Ik heb voor het eerst kennis gemaakt met custom properties, waarbij je alle kleuren in de root plaatst. Waardoor je met één klik een kleur kan aanpassen voor alle buttons of teksten. Bovendien kan je hierdoor super gemakkelijk een Dark mode kleurenpalette maken. 
  
+  #### 3:
+  Ik heb een element laten veranderen na een klik op button. Uiteindelijk is dit zelfs zo uit de hand gelopen dat ik meerdere verschillende elementen heb veranderd door middel van één klik. 
 
-  3. Ik heb een element laten veranderen na een klik op button. Uiteindelijk is dit zelfs zo uit de hand gelopen dat ik meerdere verschillende elementen heb veranderd door middel van één klik. 
-
-  4. Ik heb ook veel leren werken met keyframes en translateX of translateY. Het is gewoon heel gaaf om te zien hoe Mario zich verplaatst naar de volgende mushroom. 
+  #### 4:
+  Ik heb ook veel leren werken met keyframes en translateX of translateY. Het is gewoon heel gaaf om te zien hoe Mario zich verplaatst naar de volgende mushroom. 
  
 
  
 
   ### Dit was lastig/Is niet gelukt:
+
+  #### 1:
   Ik had het idee om voor de countdown niet allen het verkeerslicht te laten zien, maar net zoals in het spel ook de aftelling laten zien met cijfers. Ik had hiervoor de volgende bron willen gebruiken: https://codepen.io/raulsuescun/pen/dwLWyw
   Vanwege onder anderen de tijd heb ik ervoor gekozen om dit achterwege te laten en alleen het stoplicht met de cloudguy uit te werken.
   Tijdens het uitwerken van de cloudguy was er namelijk nog weinig zichtbaar van de tijdlijn, terwijl de opdracht natuurlijk draait om de 
   Evolutie van Mario Kart Rainbow Road te laten zien. 
 
+  #### 2:
   Een ander idee was het toevoegen van geluid aan de countdown. Dit idee was heel leuk geweest om erin te hebben, maar niet een must have. Ik wilde bovendien dat de belangrijkste elementen van de tijdlijn eerst klaar hebben. Bron geluid: https://quicksounds.com/sound/23/mario-kart-race-start
-
   <img src="readme-images/blueshell.png" width="375px" alt="foto van blue shell"
+
+  #### 3:
   Ik had express ervoor gekozen dat de gebruiker alleen vooruit kan gaan op de tijdlijn. Want ik wilde de blue shell gebruiken.
   De blue shell item is voor vele spelers het item dat roet in de race gooit. En je soms van de eerste plaat helemaal naar de laatste plek brengt in de ranking. Het idee was om de blue shell te laten ontploffen. Net zoals de oefening met de kikker. Door de ontploffing wordt Mario weer terug gegooid naar het beginpunt van de tijdlijn.
 
-
+   #### 4:
   Ik wilde heel graag nog een darkmodus toevoegen aan de root, maar op het eind toch vanwege tijdgebrek dit even achterwege gelaten. Het was een leuk extra. 
 
 </details>
