@@ -38,8 +38,8 @@ button:not([disabled]) {
 /*Kleuren voor light mode */
 /* 0(donker),1,2,3,4,5,6,7,8(midden),9,A,B,C,D,E,F(licht) */
 :root {
-  --basis-wit: white;
-  --basis-zwart: black;
+  --basis-kleur: white;  /**/
+  --basis-schaduw: black;
    --rainbow-gradient: linear-gradient(
     to right, 
     rgb(255,168,241),

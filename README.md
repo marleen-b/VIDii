@@ -88,23 +88,14 @@ Mijn startniveau is: blauw
 ## Voortgang/Feedback 2
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
-  - Elementen netjes uitgelijnd. 
-  - Let wel even op de leesbaarheid en voldoende contrast. Even testen met inspect. Ook als het darkmode is. 
-  - Gebruik maken van Fonts. Kijken wel past naar het design. 
-  - Bij de buttons nog meerdere states uitwerken.
+  <summary>Mijn bevindingen + wijzigingen</summary>
+  <img src="readme-images/feedback2deel1.jpg" width="1000px" alt="formulier van feedbackformulier">
+  <img src="readme-images/feedback2deel1.jpg" width="1000px" alt="formulier van feedbackformulier">
 
-  - Misschien van verkeerslicht een ul/li maken.
-  - Handige shortcut voor netjes inspringen alt shift F
-  - Netjes structuur in CSS zelfde volgorde HTML 
-  - Welke onderbouwing heb ik om classes met camelCase te schrijven en de custom properties met-streepjes in de namen
-
-  Is het handig om bij custom properties om de kleur zwart apart te maken en die weer gebruiken in bijvoorbeeld de drop shadow. Dus een custom propertie in een custom propertie. 
-
-  Foto plaatsen van feedbackformulier en plaatsen in readme
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+  Let wel even op de leesbaarheid en voldoende contrast. Even testen met inspect. Ook als het darkmode is.
+  Is het handig om bij custom properties om de kleur zwart apart te maken en die weer gebruiken in bijvoorbeeld de drop shadow. Dus een custom propertie in een custom propertie.  
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
@@ -114,13 +105,23 @@ Mijn startniveau is: blauw
   ### Bevinding 2:
   Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
 
+    - Gebruik maken van Fonts. Kijken wel past naar het design. 
+
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
 
 
 
   ### Bevinding 3:
-  ...
+    - Bij de buttons nog meerdere states uitwerken.
+
+  ### Bevinding 4:
+  - Handige shortcut voor netjes inspringen alt shift F
+  - Netjes structuur in CSS zelfde volgorde HTML 
+  - Welke onderbouwing heb ik om classes met camelCase te schrijven en de custom properties met-streepjes in de namen
+
+  ### Bevinding 5:
+  - Misschien van verkeerslicht een ul/li maken.
 
 </details>
 
