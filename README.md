@@ -168,14 +168,14 @@ Met hulp van Sanne kwam ik er achter dat wel elk tekstwolkje een eigen variabel 
   ### Je uitkomst - karakteristiek screenshot(s):
   <img src="readme-images/finalconcept.jpg" width="1000px" alt="schets van eindconcept">
   <img src="readme-images/finalconceptdeel1.png" width="375px" alt="screenshot van final ontwerp deel 1">
-  <img src="readme-images/finalconceptdeel2.png" width="375px" alt="screenshot van final ontwerp deel 2"
+  <img src="readme-images/finalconceptdeel2.png" width="375px" alt="screenshot van final ontwerp deel 2">
 
 
   ### Dit ging goed/Heb ik geleerd: 
 
   #### 1:
   Ik heb heel veel leren Javascript code schrijven voor het maken van een interactie. Voor mij persoonlijk vond ik CSS code heel lastig. Laat staan Javascript. Maar het is mij gelukt om de eerste javascript code voor de functie startenEnWegen helemaal zelf te schrijven. Ook daarna merkte ik dat het vrij gemakkelijk ging om de eerste stukken code te schrijven voor Javascript. Soms voor de laatste puntjes op de 'i' wel hulp gehad, maar ik mag niet ontevreden zijn hierover.
-  <img src="readme-images/customproperties.png" width="375px" alt="screenshot uit CSS"
+  <img src="readme-images/customproperties.png" width="375px" alt="screenshot uit CSS">
 
   #### 2:
   Ik heb voor het eerst kennis gemaakt met custom properties, waarbij je alle kleuren in de root plaatst. Waardoor je met één klik een kleur kan aanpassen voor alle buttons of teksten. Bovendien kan je hierdoor super gemakkelijk een Dark mode kleurenpalette maken. 
@@ -199,7 +199,8 @@ Met hulp van Sanne kwam ik er achter dat wel elk tekstwolkje een eigen variabel 
 
   #### 2:
   Een ander idee was het toevoegen van geluid aan de countdown. Dit idee was heel leuk geweest om erin te hebben, maar niet een must have. Ik wilde bovendien dat de belangrijkste elementen van de tijdlijn eerst klaar hebben. Bron geluid: https://quicksounds.com/sound/23/mario-kart-race-start
-  <img src="readme-images/blueshell.png" width="375px" alt="foto van blue shell"
+  <img src="readme-images/blueshell.png" width="375px" alt="foto van blue shell">
+  
 
   #### 3:
   Ik had express ervoor gekozen dat de gebruiker alleen vooruit kan gaan op de tijdlijn. Want ik wilde de blue shell gebruiken.
