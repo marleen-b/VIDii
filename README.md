@@ -186,19 +186,19 @@ Met hulp van Sanne kwam ik er achter dat wel elk tekstwolkje een eigen variabel 
  
 
   ### Dit was lastig/Is niet gelukt:
-  1. Ik had het idee om voor de countdown niet allen het verkeerslicht te laten zien, maar net zoals in het spel ook de aftelling laten zien met cijfers. Ik had hiervoor de volgende bron willen gebruiken: https://codepen.io/raulsuescun/pen/dwLWyw
+  Ik had het idee om voor de countdown niet allen het verkeerslicht te laten zien, maar net zoals in het spel ook de aftelling laten zien met cijfers. Ik had hiervoor de volgende bron willen gebruiken: https://codepen.io/raulsuescun/pen/dwLWyw
   Vanwege onder anderen de tijd heb ik ervoor gekozen om dit achterwege te laten en alleen het stoplicht met de cloudguy uit te werken.
   Tijdens het uitwerken van de cloudguy was er namelijk nog weinig zichtbaar van de tijdlijn, terwijl de opdracht natuurlijk draait om de 
   Evolutie van Mario Kart Rainbow Road te laten zien. 
 
-  2. Een ander idee was het toevoegen van geluid aan de countdown. Dit idee was heel leuk geweest om erin te hebben, maar niet een must have. Ik wilde bovendien dat de belangrijkste elementen van de tijdlijn eerst klaar hebben. Bron geluid: https://quicksounds.com/sound/23/mario-kart-race-start
+  Een ander idee was het toevoegen van geluid aan de countdown. Dit idee was heel leuk geweest om erin te hebben, maar niet een must have. Ik wilde bovendien dat de belangrijkste elementen van de tijdlijn eerst klaar hebben. Bron geluid: https://quicksounds.com/sound/23/mario-kart-race-start
 
   <img src="readme-images/blueshell.png" width="375px" alt="foto van blue shell"
-  3. Ik had express ervoor gekozen dat de gebruiker alleen vooruit kan gaan op de tijdlijn. Want ik wilde de blue shell gebruiken.
+  Ik had express ervoor gekozen dat de gebruiker alleen vooruit kan gaan op de tijdlijn. Want ik wilde de blue shell gebruiken.
   De blue shell item is voor vele spelers het item dat roet in de race gooit. En je soms van de eerste plaat helemaal naar de laatste plek brengt in de ranking. Het idee was om de blue shell te laten ontploffen. Net zoals de oefening met de kikker. Door de ontploffing wordt Mario weer terug gegooid naar het beginpunt van de tijdlijn.
 
 
-  4. Ik wilde heel graag nog een darkmodus toevoegen aan de root, maar op het eind toch vanwege tijdgebrek dit even achterwege gelaten. Het was een leuk extra. 
+  Ik wilde heel graag nog een darkmodus toevoegen aan de root, maar op het eind toch vanwege tijdgebrek dit even achterwege gelaten. Het was een leuk extra. 
 
 </details>
 
