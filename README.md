@@ -145,8 +145,8 @@ Mijn startniveau is: blauw
   Ik wilde het tekstwolkjes als popup in beeld laten verschijnen. En de tekstwolkjes zijn niet allemaal bij het eerste scherm meteen zichtbaar. 
 
   #### oplossing:
- <img src="readme-images/tekstwolkje-leeg.png" width="500px" alt="formulier van feedbackformulier">
- <img src="readme-images/tekstwolkje-vol.png" width="500px" alt="formulier van feedbackformulier">
+ <img src="readme-images/tekstwolkjes-leeg.png" width="500px" alt="formulier van feedbackformulier">
+ <img src="readme-images/tekstwolkjes-vol.png" width="500px" alt="formulier van feedbackformulier">
 Ik ben eerst op zoek gegaan naar een bron met daarin een popup effect. bron: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup
 Daarna ben ik gaan kijken naar de Javascript. Ik wist dat ik de tekst wilde laten verschijnen nadat erop een mushroom geklikt was. Er moest natuurlijk een nieuwe class op de paragraaf komen, waarin ik de animatie kon plaatsen. Want de tekst mocht pas zichtbaar zijn na de klik. 
 Met hulp van Sanne kwam ik er achter dat wel elk tekstwolkje een eigen variabel krijgt in de Javascript. Want anders bleef de tekst ontzichtbaar.
@@ -174,8 +174,9 @@ Met hulp van Sanne kwam ik er achter dat wel elk tekstwolkje een eigen variabel 
   ### Dit ging goed/Heb ik geleerd: 
   1. Ik heb heel veel leren Javascript code schrijven voor het maken van een interactie. Voor mij persoonlijk vond ik CSS code heel lastig. Laat staan Javascript. Maar het is mij gelukt om de eerste javascript code voor de functie startenEnWegen helemaal zelf te schrijven. Ook daarna merkte ik dat het vrij gemakkelijk ging om de eerste stukken code te schrijven voor Javascript. Soms voor de laatste puntjes op de 'i' wel hulp gehad, maar ik mag niet ontevreden zijn hierover.
 
+ <img src="readme-images/customproperties.png" width="375px" alt="screenshot uit CSS"
   2. Ik heb voor het eerst kennis gemaakt met custom properties, waarbij je alle kleuren in de root plaatst. Waardoor je met één klik een kleur kan aanpassen voor alle buttons of teksten. Bovendien kan je hierdoor super gemakkelijk een Dark mode kleurenpalette maken. 
-  <img src="readme-images/customproperties.png" width="375px" alt="screenshot uit CSS"
+ 
 
   3. Ik heb een element laten veranderen na een klik op button. Uiteindelijk is dit zelfs zo uit de hand gelopen dat ik meerdere verschillende elementen heb veranderd door middel van één klik. 
 
@@ -192,9 +193,10 @@ Met hulp van Sanne kwam ik er achter dat wel elk tekstwolkje een eigen variabel 
 
   2. Een ander idee was het toevoegen van geluid aan de countdown. Dit idee was heel leuk geweest om erin te hebben, maar niet een must have. Ik wilde bovendien dat de belangrijkste elementen van de tijdlijn eerst klaar hebben. Bron geluid: https://quicksounds.com/sound/23/mario-kart-race-start
 
+  <img src="readme-images/blueshell.png" width="375px" alt="foto van blue shell"
   3. Ik had express ervoor gekozen dat de gebruiker alleen vooruit kan gaan op de tijdlijn. Want ik wilde de blue shell gebruiken.
   De blue shell item is voor vele spelers het item dat roet in de race gooit. En je soms van de eerste plaat helemaal naar de laatste plek brengt in de ranking. Het idee was om de blue shell te laten ontploffen. Net zoals de oefening met de kikker. Door de ontploffing wordt Mario weer terug gegooid naar het beginpunt van de tijdlijn.
-  <img src="readme-images/blueshell.png" width="375px" alt="foto van blue shell"
+
 
   4. Ik wilde heel graag nog een darkmodus toevoegen aan de root, maar op het eind toch vanwege tijdgebrek dit even achterwege gelaten. Het was een leuk extra. 
 
