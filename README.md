@@ -132,14 +132,18 @@ Mijn startniveau is: blauw
 ## Voortgang/Feedback 3
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen </summary>
+  We kwamen tot de conclusie dat alle punten wel voldoende waren uitgewerkt.
+  De interface is een beetje responsive
+  - Terug kan gaan op de tijdlijn
   - 
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+  Tekstwolkje popup
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+  Ik wilde het tekstwolkje als een popup laten 
 
 
 
@@ -187,6 +191,10 @@ Mijn startniveau is: blauw
   bron geluid: https://quicksounds.com/sound/23/mario-kart-race-start
 
   Blue shell ontploft zoals de oefening met de kikker en Mario staat weer bij het beginpunt. 
+
+  https://codepen.io/pulpexploder/pen/MJRPKE?editors=1100 voor bounce effect 
+
+  Vooral evalueren dit kan de volgende beter.
 </details>
 
 

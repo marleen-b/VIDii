@@ -38,16 +38,17 @@ button:not([disabled]) {
 /*Kleuren voor light mode */
 /* 0(donker),1,2,3,4,5,6,7,8(midden),9,A,B,C,D,E,F(licht) */
 :root {
-  --basiskleur-licht: white; 
-  --basiskleur-donker: black;
+  --dropshadow-kleur: #fff; 
+  --dropshadow-active: #FFD700;
+  --basiskleur-donker: #000;
    --rainbow-gradient: linear-gradient(
     to right, 
-    rgb(255,168,241),
-    rgb(130,107,231),
-    rgb(140,255,180),
-    rgb(250,255,173),
-    rgb(251,175,153),
-    rgb(221, 83, 65)
+    #ffa8f1,
+    #826be7,
+    #8cffb4,
+    #faffad,
+    #fbaf99,
+    #dd5341
   );
   /*Finishlijn*/
   --finishlijn-pattern: repeating-conic-gradient( 
@@ -59,61 +60,21 @@ button:not([disabled]) {
 
     /*H1 , p*/
   --tekst-kleur: #c6c5d4; 
-  --tekst-kleur-button: var(--basiskleur-licht);
-  --kleur-button: rgb(255, 54, 27);
-  --kleur-button-hover: #F2D64F;
+  --tekst-kleur-button: var(--dropshadow-kleur:);
+  --kleur-button: #ff361b;
+  --kleur-button-hover: #Ff1208;
+  --kleur-button-active: #48ad2f; 
 
   --cloudguy-dropshadow: #0098;
-  --tekstwolkje: var(--basiskleur-licht);
+  --tekstwolkje: var(--dropshadow-kleur:);
 
   --verkeerslicht-basis: var(--basiskleur-donker);
-  --verkeerslicht-stip: gray;
-  --verkeerslicht-eerstekleur: rgb(219, 43, 91);
-  --verkeerslicht-tweedekleur:rgb(38,163, 252);
+  --verkeerslicht-stip: #808080;
+  --verkeerslicht-eerstekleur:#db312b;
+  --verkeerslicht-tweedekleur:#26aefc;
 }
 
-/*Kleuren voor darkmode*/
-@media (prefers-color-scheme:dark) {
-  :root {
-    --rainbow-gradient: linear-gradient(
-     to right, 
-     #FFC7F6,
-     #AD9EEF,
-     #B3FFCD,
-     #FBFFCA,
-     #FCCABC,
-     #E98F83
-     /*alternatieve kleuren rainbow*/
-     /*rgba(227,47,250,1),
-      rgba(0,70,255,1),
-      rgba(90,205,50,1),
-      rgba(254,255,0,1),
-      rgba(255,170,0,1),
-      rgba(255,46,0,1)
-      */
-   );
-    /*Finishlijn*/
-   --finishlijn-pattern: repeating-conic-gradient( 
-     rgb(0 0 0 /0) 0% 25%,
-     var(--basiskleur-donker) 25% 50%
-   );
-   --finishlijn-dropshadow: var(--basiskleur-donker);
- 
-    /*H1 , p*/
-   --tekst-kleur: var(--basiskleur-donker); 
-   --tekst-kleur-button: #fff;
-   --kleur-button: rgb(255, 54, 27);
-   --kleur-button-hover: rgb(243,29,1);
- 
-   --cloudguy-dropshadow: #0098;
-   --tekstwolkje: white;
- 
-   --verkeerslicht-basis: black;
-   --verkeerslicht-stip: gray;
-   --verkeerslicht-eerstekleur: rgb(219, 43, 91);
-   --verkeerslicht-tweedekleur:rgb(38,163, 252);
- }
-}
+
 
 
 
@@ -129,8 +90,8 @@ body header h1{
   letter-spacing: 0;
 
   color: var(--tekst-kleur);
-  text-shadow: 1px 0 10px white;
-  -webkit-text-stroke: 1px white;
+  text-shadow: 1px 0 10px var(--dropshadow-kleur);
+  -webkit-text-stroke: 1px var(--dropshadow-kleur);
   margin: .5em;
   text-align: center
 }
@@ -138,12 +99,11 @@ body header h1{
 body header p{
   font-family: supermario, fantasy, sans-serif;
   font-size: 1em;
-  font-style: italic;
   font-weight: bold;
   color: var(--tekst-kleur);
   text-shadow: 1px 0 10px var(--basiskleur-donker);
-  text-shadow: 1px 0 10px (--basiskleur-donker);
-  -webkit-text-stroke: 1px (--basiskleur-donker);
+  text-shadow: 1px 0 10px var(--basiskleur-donker);
+  -webkit-text-stroke: 1px var(--basiskleur-donker);
    
 }
 
@@ -160,7 +120,6 @@ body {
   background-size: cover;
   background-position: center; 
 }
-
 
 /*Veranderd background na klik op mushroom*/
 body.y1992{
@@ -186,8 +145,6 @@ body.y2011{
 body.y2017{
   background-image: url("../images/rainbowroad2017.png");
 }
-
-
 
 
 
@@ -226,7 +183,7 @@ aside button{
   left:50%;
   transform: translateX(-50%);
 
-  color: var(--tekst-kleur-button);
+  color: var(--dropshadow-kleur);
   background-color: var(--kleur-button);
 
   padding: 1em ;
@@ -241,12 +198,16 @@ aside button:hover{
 }
 
 aside button:focus{
-  background-color: red;
+  background-color: var(--kleur-button-hover);
+  border: .2em solid var(--basiskleur-donker);
+
 }
 
 aside button:active{
   /* bij klikken iets naar beneden */
-	transform:translate(-50%, 0.2em);
+	transform:translate(-50%, 0.3em);
+  background-color: var(--kleur-button-active);
+  border:none;
 }
 
 
@@ -469,7 +430,7 @@ section.tijdlijn p {
   width:9em;
   padding:.5em;
 
-  background-color: var(--tekstwolkje);
+  background-color: white;
   border-radius: .5em;
 }
 
@@ -484,7 +445,7 @@ section.tijdlijn p::before {
   width:1em;
   height:1em;
 
-  background: var(--tekstwolkje);
+  background: white;
   clip-path:polygon(0 0, 100% 0, 50% 100%, 0 0);
 }
 
@@ -493,16 +454,15 @@ section.tijdlijn ol li p{
   font-size: 1em;
   font-weight: light;
   font-style: normal;
-  color:red;
+  color:var(--basiskleur-donker);
   /*Element is verstopt, maar niet verwijderd van normal flow. Het neemt nog steeds de ruimte in*/
   visibility: hidden;
 
   /*Beter leesbaarheid van tekst bij andere achtergrond*/
   /*Of de geen background-image maar een losse img in de main */
   filter:
-  drop-shadow(0 0 .25em white)
+  drop-shadow(0 0 .25em var(--dropshadow-kleur));
 }
-
 /*Eerste tekstwolkje is wel al zichtbaar*/
 section.tijdlijn ol li:nth-of-type(1) p{
   visibility: visible;
@@ -537,24 +497,34 @@ section.tijdlijn li button{
 }
 
 section.tijdlijn li button:hover{
-border: 1em 1em 1em #789FE6;
-box-sizing: 50%;
+transform:scale(0.9);
+filter:
+  drop-shadow(0 0 .5em var(--dropshadow-kleur))
+  drop-shadow(0 0 .5em var(--dropshadow-kleur))
+  drop-shadow(0 0 .5em var(--dropshadow-kleur));
 }
 
-/* section.tijdlijn li button:focus{
 
-} */
+section.tijdlijn li button:focus{
+  transform:scale(0.9);
+  filter:
+  drop-shadow(0 0 .5em var(--dropshadow-kleur))
+  drop-shadow(0 0 .5em var(--dropshadow-kleur))
+  drop-shadow(0 0 .5em var(--dropshadow-kleur));
+}
+
 section.tijdlijn li button:active{
   filter:
-  drop-shadow(0 0 .25em yellow)
-  drop-shadow(0 0 .5em yellow);
-  transform:translatey(0);
+  drop-shadow(0 0 .25em var(--dropshadow-active))
+  drop-shadow(0 0 .5em var(--dropshadow-active))
+  drop-shadow(0 0 .5em var(--dropshadow-active));
+  transform:translatey(-1em);
+  transition: 0s;
   }
 
 section.tijdlijn li button img{
  width: 3em;
 }
-
 
 
 
