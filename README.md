@@ -127,6 +127,7 @@ Mijn startniveau is: blauw
 
 <details>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  - 
   
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
@@ -240,4 +241,3 @@ Mijn startniveau is: blauw
 4. https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup - Voor popup effect voor tekstwolkje.
 5. https://alistapart.com/article/now-you-see-me/ - Waarvoor visibility of display:none gebruiken.
 
-<details open>
