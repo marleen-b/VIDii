@@ -36,7 +36,8 @@ button:not([disabled]) {
 /* CUSTOM PROPERTIES */
 /**********************/
 /*Kleuren voor light mode */
-/* 0(donker),1,2,3,4,5,6,7,8(midden),9,A,B,C,D,E,F(licht) */
+/* 0(donker),1,2,3,4,5,6,7,8(midden),9,A,B,C,D,E,F(licht)*/
+/*Bron: https://css-tricks.com/css3-gradients/ - voor regenboog gradient*/
 :root {
   --dropshadow-kleur: #fff; 
   --dropshadow-active: #FFD700;
@@ -51,6 +52,7 @@ button:not([disabled]) {
     #dd5341
   );
   /*Finishlijn*/
+  /*Bron: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-conic-gradient - maken van schaakbord pattern*/
   --finishlijn-pattern: repeating-conic-gradient( 
     rgb(0 0 0 /0) 0% 25%,
     var(--basiskleur-donker)25% 50%
@@ -90,10 +92,10 @@ body header h1{
   letter-spacing: 0;
 
   color: var(--tekst-kleur);
-  text-shadow: 1px 0 10px var(--dropshadow-kleur);
-  -webkit-text-stroke: 1px var(--dropshadow-kleur);
+  text-shadow: 0.06em 0 0.6em var(--dropshadow-kleur);
+  -webkit-text-stroke: 0.06em var(--dropshadow-kleur);
   margin: .5em;
-  text-align: center
+  text-align: center;
 }
 
 body header p{
@@ -101,9 +103,9 @@ body header p{
   font-size: 1em;
   font-weight: bold;
   color: var(--tekst-kleur);
-  text-shadow: 1px 0 10px var(--basiskleur-donker);
-  text-shadow: 1px 0 10px var(--basiskleur-donker);
-  -webkit-text-stroke: 1px var(--basiskleur-donker);
+  text-shadow: 0.06em 0 0.6em var(--basiskleur-donker);
+  text-shadow: 0.06em 0 0.6em var(--basiskleur-donker);
+  -webkit-text-stroke: 0.06em var(--basiskleur-donker);
    
 }
 
@@ -170,7 +172,6 @@ aside:focus {
 aside.wegDerMee {
   transition-delay: 4s;
   transition-duration: .5s;
-
   opacity: 0;
   pointer-events: none;
 }
@@ -209,6 +210,7 @@ aside button:active{
   background-color: var(--kleur-button-active);
   border:none;
 }
+
 
 
 
@@ -296,7 +298,7 @@ section.cloudguy img{
 /**********************/
 /* SECTION 1 - VERKEERSLICHT */
 /**********************/
-/* Bron: https://codesandbox.io/s/6h6jg?file=/index.html */
+/* Bron: https://codesandbox.io/s/6h6jg?file=/index.html - voor maken verkeerslicht */
 /*verkeerslicht basisvorm */
 .verkeerslicht { 
   background-color: var(--verkeerslicht-basis);
@@ -463,13 +465,14 @@ section.tijdlijn ol li p{
   filter:
   drop-shadow(0 0 .25em var(--dropshadow-kleur));
 }
+
 /*Eerste tekstwolkje is wel al zichtbaar*/
 section.tijdlijn ol li:nth-of-type(1) p{
   visibility: visible;
 }
 
-/*Bron code: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup*/
-/*Toelichting: https://alistapart.com/article/now-you-see-me/ */
+/*Bron code: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup - voor popup effect*/
+/*Toelichting werking visibility: https://alistapart.com/article/now-you-see-me/ */
 section.tijdlijn p.showTekst{
   /*Geen display:none, omdat de ruimte nog wel moet worden ingenomen door het element*/
   visibility:visible;
@@ -593,7 +596,7 @@ section.tijdlijn div.finishline {
     var(--rainbow-gradient);
   background-size: 1.25em 1.25em, cover;
 
-  box-shadow:inset 0 0 0 1px var(--finishlijn-dropshadow);
+  box-shadow:inset 0 0 0 0.06 var(--finishlijn-dropshadow);
 
   animation-name: finishlijnAnimatie;
   animation-duration: .8s;
