@@ -596,7 +596,7 @@ section.tijdlijn div.finishline {
     var(--rainbow-gradient);
   background-size: 1.25em 1.25em, cover;
 
-  box-shadow:inset 0 0 0 0.06 var(--finishlijn-dropshadow);
+  box-shadow:inset 0 0 0 0.06em var(--finishlijn-dropshadow);
 
   animation-name: finishlijnAnimatie;
   animation-duration: .8s;

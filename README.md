@@ -16,9 +16,9 @@ Mijn startniveau is: blauw
   Ik heb er dus voor gekozen om een tijdlijn te maken van Rainbow Road. 
 
   #### Schets van eerste concept:
-    Het scherm is verdeeld in de kleuren van de regenboog. Elke rij heeft een eigen kleur en Mario Kart versie. 
-    Als je op één van de rijen klikt, klapt deze open en verschijnt er meer informatie.
-    Zoals welke nieuwe karakters verschenen in deze Mario Kart serie of welke nieuwe items zijn toegevoegd aan de game. En natuurlijk een video waarin de baan te zien is.
+  Het scherm is verdeeld in de kleuren van de regenboog. Elke rij heeft een eigen kleur en Mario Kart versie. 
+  Als je op één van de rijen klikt, klapt deze open en verschijnt er meer informatie.
+  Zoals welke nieuwe karakters verschenen in deze Mario Kart serie of welke nieuwe items zijn toegevoegd aan de game. En natuurlijk een video waarin de baan te zien is.
    <img src="readme-images/schetsconcept1.png" width="1000px" alt="eerste concept/schets">
 
 
@@ -45,6 +45,7 @@ Mijn startniveau is: blauw
   - Iets meer plezier hebben in coderen(knutselen) 
  
 </details>
+
 
 
 ## Voortgang/Feedback 1
@@ -103,37 +104,26 @@ Mijn startniveau is: blauw
   <img src="readme-images/feedback2deel1.jpg" width="500px" alt="formulier van feedbackformulier">
   <img src="readme-images/feedback2deel1.jpg" width="500px" alt="formulier van feedbackformulier">
 
-
   ### Bevinding 1:
   Let wel even op de leesbaarheid en voldoende contrast tussen de kleuren. Ook als het darkmode is.
-  Is het handig om bij custom properties om de kleur zwart apart te maken en die weer gebruiken in bijvoorbeeld de drop shadow. Dus een custom propertie in een custom propertie.  
+  Het is handig om bij custom properties om de kleur zwart apart te maken en die weer gebruiken in bijvoorbeeld de drop shadow. Dus een custom propertie in een custom propertie.  
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+  Ik kreeg van Milan de tip om ook voor de kleuren zwart en wit een aparte custom propertie te maken. Want in de al gemaakte custom properties kwamen deze kleuren veel terug. Ik had namelijk meerdere keren de kleur zwart gedefinieerd. Ik heb uiteindelijk gekeken naar waar deze kleuren het vaakst terugkwamen. En op basis daarvan een custom property naam gegeven. De kleur wit kwam bijvoorbeeld vaakst terug als drop-shadow kleur.
 
+  Daarnaast heb ik de kleuren van de tekst aangepast, zodat het nog leesbaar is. Ook als er een andere achtergrond in beeld staat. 
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
-
-    - Gebruik maken van Fonts. Kijken wel past naar het design. 
+  Maak gebruik van Fonts, maar kijk wel welke past bij het design en concept.  
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
-
-
+  Dit spreekt natuurlijk voor zichzelf. Maar op het moment van de feedback had ik nog geen specifieke fonts gebruikt. Ik had bijvoorbeeld nog geen Google fonts ingeladen. Dit heb ik later natuurlijk wel gedaan door @font-face te gebruiken. 
 
   ### Bevinding 3:
-    - Bij de buttons nog meerdere states uitwerken.
+  Bij de buttons nog meerdere states uitwerken. zoals hover, focus en active. Ook dit heb ik later tijdens het knutselen uitgewerkt door per button de css toe te voegen. 
 
-  ### Bevinding 4:
-  - Handige shortcut voor netjes inspringen alt shift F
-  - Netjes structuur in CSS zelfde volgorde HTML 
-  - Welke onderbouwing heb ik om classes met camelCase te schrijven en de custom properties met-streepjes in de namen
-
-  ### Bevinding 5:
-  - Misschien van verkeerslicht een ul/li maken.
 
 </details>
 
@@ -143,30 +133,27 @@ Mijn startniveau is: blauw
 
 <details>
   <summary>Mijn bevindingen + wijzigingen </summary>
-  We kwamen tot de conclusie dat alle punten wel voldoende waren uitgewerkt.
-  De interface is een beetje responsive
-  - Terug kan gaan op de tijdlijn
-  - 
+  We hebben gezamenlijk het beoordelingsformulier doorgenomen en kwamen tot de conclusie dat bijna alle punten wel redelijk voldoende waren uitgewerkt.
+  Er moesten nog een paar kleine puntjes worden uitgewerkt, zoals de button states. Maar daar was ik op dat moment ook mee aan het werk. 
+
+  Een aantal andere punten die ik nog moest afronden waren:
+  1. Het compleet maken van de custom properties en de root. 
+  2. Toepassen van fonts en ook testen op een andere laptop. Zodat de fonts op elk scherm werken. 
+  
   
   ### Bevinding 1:
-  Tekstwolkje popup
+  Ik wilde het tekstwolkjes als popup in beeld laten verschijnen. En de tekstwolkjes zijn niet allemaal bij het eerste scherm meteen zichtbaar. 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
-  Ik wilde het tekstwolkje als een popup laten 
+ <img src="readme-images/tekstwolkje-leeg.png" width="500px" alt="formulier van feedbackformulier">
+ <img src="readme-images/tekstwolkje-vol.png" width="500px" alt="formulier van feedbackformulier">
+Ik ben eerst op zoek gegaan naar een bron met daarin een popup effect. bron: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup
+Daarna ben ik gaan kijken naar de Javascript. Ik wist dat ik de tekst wilde laten verschijnen nadat erop een mushroom geklikt was. Er moest natuurlijk een nieuwe class op de paragraaf komen, waarin ik de animatie kon plaatsen. Want de tekst mocht pas zichtbaar zijn na de klik. 
+Met hulp van Sanne kwam ik er achter dat wel elk tekstwolkje een eigen variabel krijgt in de Javascript. Want anders bleef de tekst ontzichtbaar.
 
 
 
-  ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
 
-  #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
-
-
-
-  ### Bevinding 3:
-  ...
 
 </details>
 
@@ -185,16 +172,19 @@ Mijn startniveau is: blauw
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  1. Ik heb heel veel leren Javascript code schrijven voor het maken van een interactie. Voor mij persoonlijk vond ik CSS code heel lastig. Laat staan Javascript. Maar het is mij gelukt om de eerste javascript code voor de functie startenEnWegen helemaal zelf te schrijven.
+  1. Ik heb heel veel leren Javascript code schrijven voor het maken van een interactie. Voor mij persoonlijk vond ik CSS code heel lastig. Laat staan Javascript. Maar het is mij gelukt om de eerste javascript code voor de functie startenEnWegen helemaal zelf te schrijven. Ook daarna merkte ik dat het vrij gemakkelijk ging om de eerste stukken code te schrijven voor Javascript. Soms voor de laatste puntjes op de 'i' wel hulp gehad, maar ik mag niet ontevreden zijn hierover.
+
   2. Ik heb voor het eerst kennis gemaakt met custom properties, waarbij je alle kleuren in de root plaatst. Waardoor je met één klik een kleur kan aanpassen voor alle buttons of teksten. Bovendien kan je hierdoor super gemakkelijk een Dark mode kleurenpalette maken. 
   <img src="readme-images/customproperties.png" width="375px" alt="screenshot uit CSS"
+
   3. Ik heb een element laten veranderen na een klik op button. Uiteindelijk is dit zelfs zo uit de hand gelopen dat ik meerdere verschillende elementen heb veranderd door middel van één klik. 
+
+  4. Ik heb ook veel leren werken met keyframes en translateX of translateY. Het is gewoon heel gaaf om te zien hoe Mario zich verplaatst naar de volgende mushroom. 
  
 
  
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
   1. Ik had het idee om voor de countdown niet allen het verkeerslicht te laten zien, maar net zoals in het spel ook de aftelling laten zien met cijfers. Ik had hiervoor de volgende bron willen gebruiken: https://codepen.io/raulsuescun/pen/dwLWyw
   Vanwege onder anderen de tijd heb ik ervoor gekozen om dit achterwege te laten en alleen het stoplicht met de cloudguy uit te werken.
   Tijdens het uitwerken van de cloudguy was er namelijk nog weinig zichtbaar van de tijdlijn, terwijl de opdracht natuurlijk draait om de 
@@ -206,9 +196,8 @@ Mijn startniveau is: blauw
   De blue shell item is voor vele spelers het item dat roet in de race gooit. En je soms van de eerste plaat helemaal naar de laatste plek brengt in de ranking. Het idee was om de blue shell te laten ontploffen. Net zoals de oefening met de kikker. Door de ontploffing wordt Mario weer terug gegooid naar het beginpunt van de tijdlijn.
   <img src="readme-images/blueshell.png" width="375px" alt="foto van blue shell"
 
-  4. Ik wilde heel graag nog een darkmodus toevoegen aan de root, maar op het eind toch vanwege tijdgebrek dit even achterwege gelaten. 
- 
-  
+  4. Ik wilde heel graag nog een darkmodus toevoegen aan de root, maar op het eind toch vanwege tijdgebrek dit even achterwege gelaten. Het was een leuk extra. 
+
 </details>
 
 
