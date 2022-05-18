@@ -13,15 +13,16 @@ Mijn startniveau is: blauw
 # Je plan
 
 <details open>
-  <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
-
   ### De eerste versie/schets:
   <img src="readme-images/schetsconcept1.png" width="500px" alt="eerste concept/schets">
-  <img src="readme-images/schetsconcept2.png" width="500px" alt="tweede concept/schets">
+  Schets van eerste concept
+  <img src="readme-images/schetsconcept2.png" width="1000px" alt="tweede concept/schets">
+  Schetsen van tweede concept
   <img src="readme-images/schetsenideetjes.png" width="500px" alt="schetsen van losse ideeën">
+  Schetsen van losse ideeën die te combineren zijn met concept 2.
 
   Mario Kart is een klassieker die bijna iedereen wel kent. En welke course komt in elke Mario Kart game terug? Jazeker, Rainbow Road. Wat ook één van mijn favoriete Mario Kart baan is.
-  Voor sommigen spelers een course vol trauma's, omdat je regelmatig van de baan vliegt en voor andere weer niet. 
+  Voor sommigen spelers een baan vol trauma's, omdat je regelmatig van de baan vliegt en voor andere weer niet. 
   Ik heb er dus voor gekozen om een tijdlijn te maken van Rainbow Road. 
 
   Het idee is om Mario te laten 'racen' door de versies van Rainbow Road heen. Bij elke mushroom veranderd Mario naar een andere game versie van Mario Kart. Ook zie je de achtergrond veranderen naar de Rainbow Road course uit dezelfde game. 
